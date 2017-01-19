@@ -8,7 +8,7 @@
 
  scheme "Appetit"
  workspace "Appetit.xcworkspace"
- devices ["iphone 7"]
+ devices ["iPhone 7"]
 
 # open_report true
 

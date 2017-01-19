@@ -1,11 +1,6 @@
 language: objective-c
 osx_image: xcode8.1
 
-branches:
- only:
- - master
- - develop
-
 cache:
 - bundler
 - cocoapods
