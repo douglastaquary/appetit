@@ -10,6 +10,4 @@
  workspace "Appetit.xcworkspace"
  devices ["iPhone 7"]
 
-# open_report true
-
  clean true
