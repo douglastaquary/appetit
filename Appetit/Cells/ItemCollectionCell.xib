@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11761" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="dqz-Uj-zNc" customClass="ItemCollectionCell" customModule="Appetit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="316" height="311"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="316" height="311"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beju_c_ovo" translatesAutoresizingMaskIntoConstraints="NO" id="yeS-0j-6fh">
+                        <rect key="frame" x="4" y="4" width="308" height="303"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-alpha" translatesAutoresizingMaskIntoConstraints="NO" id="l0N-6S-3kc">
+                        <rect key="frame" x="4" y="156" width="308" height="151"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="151" id="0S3-oU-Bkw"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sEX-Ir-YMD">
+                        <rect key="frame" x="102" y="263" width="112" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iF-b2-tkO">
+                                <rect key="frame" x="6" y="6" width="100" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="112" id="SYu-0b-KuI"/>
+                            <constraint firstAttribute="height" constant="35" id="nGs-r2-oua"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="17"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Um nome de produto bem grande" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJE-Gt-xiP">
+                        <rect key="frame" x="8" y="199" width="300" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="tRk-kj-tW0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.92248968908629436" green="0.92248968908629436" blue="0.92248968908629436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="l0N-6S-3kc" secondAttribute="trailing" constant="4" id="50e-4x-yXK"/>
+                <constraint firstItem="MJE-Gt-xiP" firstAttribute="leading" secondItem="dqz-Uj-zNc" secondAttribute="leading" constant="8" id="6jv-Nm-X4M"/>
+                <constraint firstItem="yeS-0j-6fh" firstAttribute="top" secondItem="dqz-Uj-zNc" secondAttribute="top" constant="4" id="E8b-No-eLr"/>
+                <constraint firstItem="l0N-6S-3kc" firstAttribute="leading" secondItem="dqz-Uj-zNc" secondAttribute="leading" constant="4" id="ExK-3N-ufk"/>
+                <constraint firstAttribute="trailing" secondItem="yeS-0j-6fh" secondAttribute="trailing" constant="4" id="W7u-11-mkd"/>
+                <constraint firstAttribute="bottom" secondItem="sEX-Ir-YMD" secondAttribute="bottom" constant="13" id="WAp-uI-7wW"/>
+                <constraint firstAttribute="bottom" secondItem="yeS-0j-6fh" secondAttribute="bottom" constant="4" id="bub-FW-a47"/>
+                <constraint firstItem="sEX-Ir-YMD" firstAttribute="centerX" secondItem="dqz-Uj-zNc" secondAttribute="centerX" id="f1O-kW-8RQ"/>
+                <constraint firstAttribute="bottom" secondItem="l0N-6S-3kc" secondAttribute="bottom" constant="4" id="g02-iI-Pkx"/>
+                <constraint firstAttribute="trailing" secondItem="MJE-Gt-xiP" secondAttribute="trailing" constant="8" id="iAP-lJ-0Me"/>
+                <constraint firstItem="sEX-Ir-YMD" firstAttribute="top" secondItem="MJE-Gt-xiP" secondAttribute="bottom" constant="4" id="mZh-wM-8bZ"/>
+                <constraint firstItem="yeS-0j-6fh" firstAttribute="leading" secondItem="dqz-Uj-zNc" secondAttribute="leading" constant="4" id="uzC-i6-QJ7"/>
+            </constraints>
+            <size key="customSize" width="364" height="92"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imageBackground" destination="yeS-0j-6fh" id="XX3-lE-KRA"/>
+                <outlet property="name" destination="MJE-Gt-xiP" id="c2U-NT-JTA"/>
+                <outlet property="price" destination="8iF-b2-tkO" id="zZ2-Mu-vuY"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="-82.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="background-alpha" width="320" height="70"/>
+        <image name="beju_c_ovo" width="2370" height="2370"/>
+    </resources>
+</document>

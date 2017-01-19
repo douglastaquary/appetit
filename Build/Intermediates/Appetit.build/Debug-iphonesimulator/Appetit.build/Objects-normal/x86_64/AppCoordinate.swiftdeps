@@ -1,0 +1,227 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppCoordinator"
+provides-nominal:
+- "C7Appetit14AppCoordinator"
+provides-member:
+- ["C7Appetit14AppCoordinator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AppetitAPICalls"
+- "UINavigationController"
+- "ItemsDelegate"
+- "AssignmentPrecedence"
+- "ModalTransition"
+- "AppetitAPIManager"
+- "IndexPath"
+- !private "ItemViewController"
+- !private "BooleanLiteralType"
+- !private "ItemsViewController"
+- "AppCoordinator"
+depends-member:
+- ["Ps9AnyObject", "AppetitAPIManager"]
+- !private ["Ps9AnyObject", "ItemViewController"]
+- !private ["Ps9AnyObject", "ItemsViewController"]
+- ["Ps9AnyObject", "ModalTransition"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didSelectedItem"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isNavigationBarHidden"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "pushViewController"]
+- !private ["Ps9AnyObject", "startDetailItem"]
+- ["Ps9AnyObject", ""]
+- ["C7Appetit14AppCoordinator", "AppetitAPICalls"]
+- ["C7Appetit14AppCoordinator", "AppetitAPIManager"]
+- ["C7Appetit14AppCoordinator", "IndexPath"]
+- !private ["C7Appetit14AppCoordinator", "ItemViewController"]
+- !private ["C7Appetit14AppCoordinator", "ItemsViewController"]
+- ["C7Appetit14AppCoordinator", "ModalTransition"]
+- ["C7Appetit14AppCoordinator", "UINavigationController"]
+- ["C7Appetit14AppCoordinator", "deinit"]
+- ["C7Appetit14AppCoordinator", "didSelectedItem"]
+- ["C7Appetit14AppCoordinator", "init"]
+- ["C7Appetit14AppCoordinator", "modalTransitionController"]
+- ["C7Appetit14AppCoordinator", "navigationController"]
+- ["C7Appetit14AppCoordinator", "provider"]
+- ["C7Appetit14AppCoordinator", "start"]
+- ["C7Appetit14AppCoordinator", "startDetailItem"]
+- ["C7Appetit14AppCoordinator", "startListOrders"]
+- ["P7Appetit15AppetitAPICalls", "deinit"]
+- ["P7Appetit15AppetitAPICalls", "init"]
+- ["V7Appetit17AppetitAPIManager", "deinit"]
+- ["V7Appetit17AppetitAPIManager", "init"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isNavigationBarHidden"]
+- !private ["Ps7CVarArg", "pushViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isNavigationBarHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isNavigationBarHidden"]
+- !private ["Ps23CustomStringConvertible", "pushViewController"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isNavigationBarHidden"]
+- !private ["Ps9Equatable", "pushViewController"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isNavigationBarHidden"]
+- !private ["Ps8Hashable", "pushViewController"]
+- ["V10Foundation9IndexPath", "deinit"]
+- ["C7Appetit18ItemViewController", "deinit"]
+- !private ["C7Appetit18ItemViewController", "init"]
+- ["P7Appetit13ItemsDelegate", "AppetitAPIManager"]
+- !private ["P7Appetit13ItemsDelegate", "ItemViewController"]
+- !private ["P7Appetit13ItemsDelegate", "ItemsViewController"]
+- ["P7Appetit13ItemsDelegate", "ModalTransition"]
+- !private ["P7Appetit13ItemsDelegate", "delegate"]
+- ["P7Appetit13ItemsDelegate", "didSelectedItem"]
+- !private ["P7Appetit13ItemsDelegate", "init"]
+- !private ["P7Appetit13ItemsDelegate", "navigationController"]
+- !private ["P7Appetit13ItemsDelegate", "startDetailItem"]
+- ["P7Appetit13ItemsDelegate", ""]
+- ["C7Appetit19ItemsViewController", "deinit"]
+- !private ["C7Appetit19ItemsViewController", "delegate"]
+- !private ["C7Appetit19ItemsViewController", "init"]
+- ["C7Appetit15ModalTransition", "deinit"]
+- ["C7Appetit15ModalTransition", "init"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isNavigationBarHidden"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isNavigationBarHidden"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isNavigationBarHidden"]
+- !private ["CSo8NSObject", "pushViewController"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isNavigationBarHidden"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- !private ["P7RxSwift18ReactiveCompatible", "delegate"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "isNavigationBarHidden"]
+- !private ["P7RxSwift18ReactiveCompatible", "pushViewController"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isNavigationBarHidden"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isNavigationBarHidden"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isNavigationBarHidden"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- ["CSo22UINavigationController", "deinit"]
+- !private ["CSo22UINavigationController", "isNavigationBarHidden"]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isNavigationBarHidden"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isNavigationBarHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isNavigationBarHidden"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isNavigationBarHidden"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isNavigationBarHidden"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- ["PSo37UIViewControllerAnimatedTransitioning", "init"]
+- ["PSo37UIViewControllerTransitioningDelegate", "init"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isNavigationBarHidden"]
+- !private ["Ps9_Hashable", "pushViewController"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C7Appetit14AppCoordinator"
+- "P7Appetit15AppetitAPICalls"
+- "V7Appetit17AppetitAPIManager"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "V10Foundation9IndexPath"
+- "C7Appetit18ItemViewController"
+- "P7Appetit13ItemsDelegate"
+- "C7Appetit19ItemsViewController"
+- "C7Appetit15ModalTransition"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "P7RxSwift18ReactiveCompatible"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- "CSo22UINavigationController"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- "PSo37UIViewControllerAnimatedTransitioning"
+- "PSo37UIViewControllerTransitioningDelegate"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/Reusable.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+interface-hash: "8f98e4c85b0cb5ef573bed29a112331e"

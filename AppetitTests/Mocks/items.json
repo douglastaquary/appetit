@@ -1,0 +1,83 @@
+{"foods": [
+                  {
+                    "id":1,
+                    "name":"Beiju com Carne de Sol",
+                    "price":"3,00",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  },
+                  {
+                    "id":2,
+                    "name":"Beiju com Ovo",
+                    "price":"2,30",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  },
+                  {
+                    "id":3,
+                    "name":"Beiju com Queijo e presunto",
+                    "price":"2,30",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  },
+                  {
+                    "id":4,
+                    "name":"Beiju Simples",
+                    "price":"1,30",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+
+                  },
+                  {
+                    "id":5,
+                    "name":"Fatia Bolo Salgado",
+                    "price":"2,00",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  },
+                  {
+                    "id":6,
+                    "name":"Fatia Bolo Doce",
+                    "price":"2,50",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  },
+                  {
+                    "id":7,
+                    "name":"Bolo Frito ",
+                    "price":"0,60",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  },
+                  {
+                    "id":8,
+                    "name":"Cachorro Quente",
+                    "price":"3,00",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+
+                  },
+                  {
+                    "id":9,
+                    "name":"Caldo de Carne",
+                    "price":"3,00",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  },
+                  {
+                    "id":10,
+                    "name":"Carne de Sol Recheio(Porção)",
+                    "price":"3,50",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  },
+                  {
+                    "id":11,
+                    "name":"Clube Social",
+                    "price":"1,00",
+                    "isAdd":"false",
+                    "image":"image_not_found"
+                  }],
+    "drinks": [],
+    "sweets": []
+}

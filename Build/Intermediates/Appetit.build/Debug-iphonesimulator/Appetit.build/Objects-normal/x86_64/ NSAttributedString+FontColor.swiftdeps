@@ -1,0 +1,418 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo18NSAttributedString", ""]
+- ["CSo18NSAttributedString", "init"]
+- ["CSo18NSAttributedString", "highlight"]
+provides-dynamic-lookup:
+- "highlight"
+depends-top-level:
+- "NSAttributedString"
+- !private "NSString"
+- !private "NSFontAttributeName"
+- "AssignmentPrecedence"
+- !private "NSForegroundColorAttributeName"
+- !private "!="
+- "CastingPrecedence"
+- "UIFont"
+- "UIColor"
+- !private "NSMutableAttributedString"
+- "String"
+- !private "NSNotFound"
+depends-member:
+- !private ["Ps9AnyObject", "NSAttributedString"]
+- !private ["Ps9AnyObject", "NSFontAttributeName"]
+- !private ["Ps9AnyObject", "NSForegroundColorAttributeName"]
+- !private ["Ps9AnyObject", "NSMutableAttributedString"]
+- !private ["Ps9AnyObject", "NSNotFound"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "addAttribute"]
+- !private ["Ps9AnyObject", "characters"]
+- ["Ps9AnyObject", "highlight"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "range"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "NSAttributedString"]
+- !private ["Ps7CVarArg", "NSFontAttributeName"]
+- !private ["Ps7CVarArg", "NSForegroundColorAttributeName"]
+- !private ["Ps7CVarArg", "NSMutableAttributedString"]
+- !private ["Ps7CVarArg", "NSNotFound"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "addAttribute"]
+- !private ["Ps7CVarArg", "characters"]
+- ["Ps7CVarArg", "highlight"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "range"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["VSS13CharacterView", "IndexDistance"]
+- !private ["VSS13CharacterView", "count"]
+- ["VSS13CharacterView", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "NSAttributedString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFontAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSForegroundColorAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableAttributedString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotFound"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "addAttribute"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- ["Ps28CustomDebugStringConvertible", "highlight"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "range"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "location"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "range"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "location"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "NSAttributedString"]
+- !private ["Ps23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSForegroundColorAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSMutableAttributedString"]
+- !private ["Ps23CustomStringConvertible", "NSNotFound"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAttribute"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- ["Ps23CustomStringConvertible", "highlight"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "range"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "NSAttributedString"]
+- !private ["Ps9Equatable", "NSFontAttributeName"]
+- !private ["Ps9Equatable", "NSForegroundColorAttributeName"]
+- !private ["Ps9Equatable", "NSMutableAttributedString"]
+- !private ["Ps9Equatable", "NSNotFound"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addAttribute"]
+- !private ["Ps9Equatable", "characters"]
+- ["Ps9Equatable", "highlight"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "range"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "range"]
+- !private ["Ps32ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "range"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "range"]
+- !private ["Ps8Hashable", "NSAttributedString"]
+- !private ["Ps8Hashable", "NSFontAttributeName"]
+- !private ["Ps8Hashable", "NSForegroundColorAttributeName"]
+- !private ["Ps8Hashable", "NSMutableAttributedString"]
+- !private ["Ps8Hashable", "NSNotFound"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addAttribute"]
+- !private ["Ps8Hashable", "characters"]
+- ["Ps8Hashable", "highlight"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "range"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps10MirrorPath", "characters"]
+- ["CSo18NSAttributedString", "NSAttributedString"]
+- !private ["CSo18NSAttributedString", "NSFontAttributeName"]
+- !private ["CSo18NSAttributedString", "NSForegroundColorAttributeName"]
+- !private ["CSo18NSAttributedString", "NSMutableAttributedString"]
+- !private ["CSo18NSAttributedString", "NSNotFound"]
+- !private ["CSo18NSAttributedString", "NSString"]
+- ["CSo18NSAttributedString", "String"]
+- ["CSo18NSAttributedString", "UIColor"]
+- ["CSo18NSAttributedString", "UIFont"]
+- !private ["CSo18NSAttributedString", "addAttribute"]
+- ["CSo18NSAttributedString", "deinit"]
+- ["CSo18NSAttributedString", "highlight"]
+- ["CSo18NSAttributedString", "init"]
+- !private ["CSo18NSAttributedString", "string"]
+- !private ["PSo8NSCoding", "NSAttributedString"]
+- !private ["PSo8NSCoding", "NSFontAttributeName"]
+- !private ["PSo8NSCoding", "NSForegroundColorAttributeName"]
+- !private ["PSo8NSCoding", "NSMutableAttributedString"]
+- !private ["PSo8NSCoding", "NSNotFound"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "addAttribute"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "range"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo9NSCopying", "NSAttributedString"]
+- !private ["PSo9NSCopying", "NSFontAttributeName"]
+- !private ["PSo9NSCopying", "NSForegroundColorAttributeName"]
+- !private ["PSo9NSCopying", "NSMutableAttributedString"]
+- !private ["PSo9NSCopying", "NSNotFound"]
+- !private ["PSo9NSCopying", "String"]
+- !private ["PSo9NSCopying", "addAttribute"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "range"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["CSo25NSMutableAttributedString", "addAttribute"]
+- ["CSo25NSMutableAttributedString", "deinit"]
+- !private ["CSo25NSMutableAttributedString", "init"]
+- !private ["PSo16NSMutableCopying", "NSAttributedString"]
+- !private ["PSo16NSMutableCopying", "NSFontAttributeName"]
+- !private ["PSo16NSMutableCopying", "NSForegroundColorAttributeName"]
+- !private ["PSo16NSMutableCopying", "NSMutableAttributedString"]
+- !private ["PSo16NSMutableCopying", "NSNotFound"]
+- !private ["PSo16NSMutableCopying", "String"]
+- !private ["PSo16NSMutableCopying", "addAttribute"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "range"]
+- !private ["PSo16NSMutableCopying", "string"]
+- ["CSo8NSObject", "NSAttributedString"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSForegroundColorAttributeName"]
+- !private ["CSo8NSObject", "NSMutableAttributedString"]
+- !private ["CSo8NSObject", "NSNotFound"]
+- !private ["CSo8NSObject", "NSString"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "addAttribute"]
+- !private ["CSo8NSObject", "characters"]
+- ["CSo8NSObject", "highlight"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "range"]
+- !private ["CSo8NSObject", "string"]
+- !private ["PSo16NSObjectProtocol", "NSAttributedString"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSForegroundColorAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSMutableAttributedString"]
+- !private ["PSo16NSObjectProtocol", "NSNotFound"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "addAttribute"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- ["PSo16NSObjectProtocol", "highlight"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "range"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo14NSSecureCoding", "NSAttributedString"]
+- !private ["PSo14NSSecureCoding", "NSFontAttributeName"]
+- !private ["PSo14NSSecureCoding", "NSForegroundColorAttributeName"]
+- !private ["PSo14NSSecureCoding", "NSMutableAttributedString"]
+- !private ["PSo14NSSecureCoding", "NSNotFound"]
+- !private ["PSo14NSSecureCoding", "String"]
+- !private ["PSo14NSSecureCoding", "addAttribute"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "range"]
+- !private ["PSo14NSSecureCoding", "string"]
+- !private ["CSo8NSString", "characters"]
+- ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "range"]
+- ["Sq", "deinit"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["P7RxSwift18ReactiveCompatible", "NSAttributedString"]
+- !private ["P7RxSwift18ReactiveCompatible", "NSFontAttributeName"]
+- !private ["P7RxSwift18ReactiveCompatible", "NSForegroundColorAttributeName"]
+- !private ["P7RxSwift18ReactiveCompatible", "NSMutableAttributedString"]
+- !private ["P7RxSwift18ReactiveCompatible", "NSNotFound"]
+- !private ["P7RxSwift18ReactiveCompatible", "String"]
+- !private ["P7RxSwift18ReactiveCompatible", "addAttribute"]
+- !private ["P7RxSwift18ReactiveCompatible", "characters"]
+- ["P7RxSwift18ReactiveCompatible", "highlight"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "range"]
+- !private ["P7RxSwift18ReactiveCompatible", "string"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["SS", "characters"]
+- ["SS", "deinit"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- ["CSo7UIColor", "deinit"]
+- ["CSo6UIFont", "deinit"]
+- !private ["P9Alamofire14URLConvertible", "characters"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "range"]
+- !private ["Ps9_Hashable", "NSAttributedString"]
+- !private ["Ps9_Hashable", "NSFontAttributeName"]
+- !private ["Ps9_Hashable", "NSForegroundColorAttributeName"]
+- !private ["Ps9_Hashable", "NSMutableAttributedString"]
+- !private ["Ps9_Hashable", "NSNotFound"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addAttribute"]
+- !private ["Ps9_Hashable", "characters"]
+- ["Ps9_Hashable", "highlight"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "range"]
+- !private ["Ps9_Hashable", "string"]
+- ["VSC8_NSRange", "deinit"]
+- !private ["VSC8_NSRange", "location"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "location"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps7CVarArg"
+- "VSS13CharacterView"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo18NSAttributedString"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo25NSMutableAttributedString"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "P7RxSwift18ReactiveCompatible"
+- !private "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "CSo7UIColor"
+- "CSo6UIFont"
+- !private "P9Alamofire14URLConvertible"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "VSC8_NSRange"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/Reusable.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+interface-hash: "1657d3f1402c5dfd70ed96c886e4f910"

@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "63f3ac9a3456b40199989900e4266590"
+build_time: [538026512, 523798000]
+inputs:
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Cancellable.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Plugins/CredentialsPlugin.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Endpoint.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Error.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Image.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Moya+Alamofire.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Moya+Defaults.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Moya+Internal.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/RxSwift/Moya+RxSwift.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Moya.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/MultiTarget.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Plugins/NetworkActivityPlugin.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Plugins/NetworkLoggerPlugin.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/RxSwift/Observable+Moya.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Plugin.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Response.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya/Source/Target.swift": [537928306, 0]

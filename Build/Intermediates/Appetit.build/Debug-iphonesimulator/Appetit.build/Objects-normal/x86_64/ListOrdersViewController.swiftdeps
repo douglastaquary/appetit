@@ -1,0 +1,717 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ListOrdersViewControllerDelegate"
+- "ListOrdersViewController"
+provides-nominal:
+- "P7Appetit32ListOrdersViewControllerDelegate"
+- "C7Appetit24ListOrdersViewController"
+- "V7Appetit18ListOrderViewModel"
+provides-member:
+- ["P7Appetit32ListOrdersViewControllerDelegate", ""]
+- ["C7Appetit24ListOrdersViewController", ""]
+- ["V7Appetit18ListOrderViewModel", ""]
+provides-dynamic-lookup:
+- "didEnd"
+- "modalTransitionController"
+- "loadView"
+- "viewWillAppear"
+- "theView"
+- "saveOrder"
+- "viewDidLayoutSubviews"
+depends-top-level:
+- "ListOrderViewModel"
+- !private "UIScreen"
+- "Item"
+- !private "BooleanLiteralType"
+- "ListOrder"
+- !private "StringLiteralType"
+- "Bool"
+- "NSCoder"
+- "UIViewController"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "ListOrdersViewController"
+- "ListOrdersViewControllerDelegate"
+- "ModalTransition"
+- !private "fatalError"
+depends-member:
+- !private ["Ps9AnyObject", "ListOrder"]
+- !private ["Ps9AnyObject", "ListOrderViewModel"]
+- ["Ps9AnyObject", "ModalTransition"]
+- !private ["Ps9AnyObject", "UIScreen"]
+- !private ["Ps9AnyObject", "bounds"]
+- ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didEnd"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "item"]
+- ["Ps9AnyObject", "loadView"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "modalTransitionController"]
+- ["Ps9AnyObject", "saveOrder"]
+- ["Ps9AnyObject", "theView"]
+- !private ["Ps9AnyObject", "topLayoutGuide"]
+- !private ["Ps9AnyObject", "topOffset"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewDidAppear"]
+- ["Ps9AnyObject", "viewDidLayoutSubviews"]
+- !private ["Ps9AnyObject", "viewModel"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "topOffset"]
+- !private ["PSo15CALayerDelegate", "viewModel"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "deinit"]
+- !private ["Ps7CVarArg", "ListOrder"]
+- !private ["Ps7CVarArg", "ListOrderViewModel"]
+- ["Ps7CVarArg", "ModalTransition"]
+- !private ["Ps7CVarArg", "UIScreen"]
+- !private ["Ps7CVarArg", "bounds"]
+- ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "didEnd"]
+- !private ["Ps7CVarArg", "dismiss"]
+- !private ["Ps7CVarArg", "fatalError"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "item"]
+- ["Ps7CVarArg", "loadView"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "modalTransitionController"]
+- ["Ps7CVarArg", "saveOrder"]
+- ["Ps7CVarArg", "theView"]
+- !private ["Ps7CVarArg", "topLayoutGuide"]
+- !private ["Ps7CVarArg", "topOffset"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "viewDidAppear"]
+- ["Ps7CVarArg", "viewDidLayoutSubviews"]
+- !private ["Ps7CVarArg", "viewModel"]
+- ["Ps7CVarArg", "viewWillAppear"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ListOrder"]
+- !private ["Ps28CustomDebugStringConvertible", "ListOrderViewModel"]
+- ["Ps28CustomDebugStringConvertible", "ModalTransition"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didEnd"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "item"]
+- ["Ps28CustomDebugStringConvertible", "loadView"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "modalTransitionController"]
+- ["Ps28CustomDebugStringConvertible", "saveOrder"]
+- ["Ps28CustomDebugStringConvertible", "theView"]
+- !private ["Ps28CustomDebugStringConvertible", "topLayoutGuide"]
+- !private ["Ps28CustomDebugStringConvertible", "topOffset"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidAppear"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLayoutSubviews"]
+- !private ["Ps28CustomDebugStringConvertible", "viewModel"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "ListOrder"]
+- !private ["Ps23CustomStringConvertible", "ListOrderViewModel"]
+- ["Ps23CustomStringConvertible", "ModalTransition"]
+- !private ["Ps23CustomStringConvertible", "UIScreen"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didEnd"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "item"]
+- ["Ps23CustomStringConvertible", "loadView"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "modalTransitionController"]
+- ["Ps23CustomStringConvertible", "saveOrder"]
+- ["Ps23CustomStringConvertible", "theView"]
+- !private ["Ps23CustomStringConvertible", "topLayoutGuide"]
+- !private ["Ps23CustomStringConvertible", "topOffset"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "viewDidAppear"]
+- ["Ps23CustomStringConvertible", "viewDidLayoutSubviews"]
+- !private ["Ps23CustomStringConvertible", "viewModel"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "ListOrder"]
+- !private ["Ps9Equatable", "ListOrderViewModel"]
+- ["Ps9Equatable", "ModalTransition"]
+- !private ["Ps9Equatable", "UIScreen"]
+- !private ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didEnd"]
+- !private ["Ps9Equatable", "dismiss"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "item"]
+- ["Ps9Equatable", "loadView"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "modalTransitionController"]
+- ["Ps9Equatable", "saveOrder"]
+- ["Ps9Equatable", "theView"]
+- !private ["Ps9Equatable", "topLayoutGuide"]
+- !private ["Ps9Equatable", "topOffset"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "viewDidAppear"]
+- ["Ps9Equatable", "viewDidLayoutSubviews"]
+- !private ["Ps9Equatable", "viewModel"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "ListOrder"]
+- !private ["Ps8Hashable", "ListOrderViewModel"]
+- ["Ps8Hashable", "ModalTransition"]
+- !private ["Ps8Hashable", "UIScreen"]
+- !private ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didEnd"]
+- !private ["Ps8Hashable", "dismiss"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "item"]
+- ["Ps8Hashable", "loadView"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "modalTransitionController"]
+- ["Ps8Hashable", "saveOrder"]
+- ["Ps8Hashable", "theView"]
+- !private ["Ps8Hashable", "topLayoutGuide"]
+- !private ["Ps8Hashable", "topOffset"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "viewDidAppear"]
+- ["Ps8Hashable", "viewDidLayoutSubviews"]
+- !private ["Ps8Hashable", "viewModel"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- ["V7Appetit4Item", "deinit"]
+- ["C7Appetit9ListOrder", "deinit"]
+- !private ["C7Appetit9ListOrder", "init"]
+- !private ["C7Appetit9ListOrder", "topOffset"]
+- !private ["C7Appetit9ListOrder", "viewModel"]
+- ["V7Appetit18ListOrderViewModel", "ListOrdersViewController"]
+- ["V7Appetit18ListOrderViewModel", "deinit"]
+- ["V7Appetit18ListOrderViewModel", "didEnd"]
+- !private ["V7Appetit18ListOrderViewModel", "init"]
+- ["P7Appetit26ListOrderViewModelProtocol", "didEnd"]
+- !private ["P7Appetit26ListOrderViewModelProtocol", "init"]
+- ["C7Appetit24ListOrdersViewController", "Bool"]
+- ["C7Appetit24ListOrdersViewController", "Item"]
+- ["C7Appetit24ListOrdersViewController", "ListOrder"]
+- !private ["C7Appetit24ListOrdersViewController", "ListOrderViewModel"]
+- ["C7Appetit24ListOrdersViewController", "ListOrdersViewControllerDelegate"]
+- ["C7Appetit24ListOrdersViewController", "ModalTransition"]
+- ["C7Appetit24ListOrdersViewController", "NSCoder"]
+- !private ["C7Appetit24ListOrdersViewController", "UIScreen"]
+- ["C7Appetit24ListOrdersViewController", "deinit"]
+- ["C7Appetit24ListOrdersViewController", "delegate"]
+- ["C7Appetit24ListOrdersViewController", "didEnd"]
+- !private ["C7Appetit24ListOrdersViewController", "dismiss"]
+- !private ["C7Appetit24ListOrdersViewController", "fatalError"]
+- ["C7Appetit24ListOrdersViewController", "init"]
+- ["C7Appetit24ListOrdersViewController", "item"]
+- ["C7Appetit24ListOrdersViewController", "loadView"]
+- ["C7Appetit24ListOrdersViewController", "modalTransitionController"]
+- ["C7Appetit24ListOrdersViewController", "saveOrder"]
+- ["C7Appetit24ListOrdersViewController", "theView"]
+- !private ["C7Appetit24ListOrdersViewController", "topLayoutGuide"]
+- !private ["C7Appetit24ListOrdersViewController", "view"]
+- ["C7Appetit24ListOrdersViewController", "viewDidLayoutSubviews"]
+- ["C7Appetit24ListOrdersViewController", "viewWillAppear"]
+- ["P7Appetit32ListOrdersViewControllerDelegate", "ListOrdersViewController"]
+- ["P7Appetit32ListOrdersViewControllerDelegate", "didEnd"]
+- !private ["P7Appetit32ListOrdersViewControllerDelegate", "init"]
+- ["P7Appetit32ListOrdersViewControllerDelegate", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["C7Appetit15ModalTransition", "deinit"]
+- ["C7Appetit15ModalTransition", "init"]
+- !private ["PSo8NSCoding", "ListOrder"]
+- !private ["PSo8NSCoding", "ListOrderViewModel"]
+- ["PSo8NSCoding", "ModalTransition"]
+- !private ["PSo8NSCoding", "UIScreen"]
+- ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didEnd"]
+- !private ["PSo8NSCoding", "dismiss"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "item"]
+- ["PSo8NSCoding", "loadView"]
+- ["PSo8NSCoding", "modalTransitionController"]
+- ["PSo8NSCoding", "saveOrder"]
+- ["PSo8NSCoding", "theView"]
+- !private ["PSo8NSCoding", "topLayoutGuide"]
+- !private ["PSo8NSCoding", "topOffset"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLayoutSubviews"]
+- !private ["PSo8NSCoding", "viewModel"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "ListOrder"]
+- !private ["PSo26NSExtensionRequestHandling", "ListOrderViewModel"]
+- ["PSo26NSExtensionRequestHandling", "ModalTransition"]
+- !private ["PSo26NSExtensionRequestHandling", "UIScreen"]
+- ["PSo26NSExtensionRequestHandling", "delegate"]
+- ["PSo26NSExtensionRequestHandling", "didEnd"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "item"]
+- ["PSo26NSExtensionRequestHandling", "loadView"]
+- ["PSo26NSExtensionRequestHandling", "modalTransitionController"]
+- ["PSo26NSExtensionRequestHandling", "saveOrder"]
+- ["PSo26NSExtensionRequestHandling", "theView"]
+- !private ["PSo26NSExtensionRequestHandling", "topLayoutGuide"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLayoutSubviews"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Item"]
+- ["CSo8NSObject", "ListOrder"]
+- !private ["CSo8NSObject", "ListOrderViewModel"]
+- ["CSo8NSObject", "ListOrdersViewControllerDelegate"]
+- ["CSo8NSObject", "ModalTransition"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "UIScreen"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didEnd"]
+- !private ["CSo8NSObject", "dismiss"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "item"]
+- ["CSo8NSObject", "loadView"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "modalTransitionController"]
+- ["CSo8NSObject", "saveOrder"]
+- ["CSo8NSObject", "theView"]
+- !private ["CSo8NSObject", "topLayoutGuide"]
+- !private ["CSo8NSObject", "topOffset"]
+- !private ["CSo8NSObject", "view"]
+- !private ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLayoutSubviews"]
+- !private ["CSo8NSObject", "viewModel"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "ListOrder"]
+- !private ["PSo16NSObjectProtocol", "ListOrderViewModel"]
+- ["PSo16NSObjectProtocol", "ModalTransition"]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didEnd"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "item"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- ["PSo16NSObjectProtocol", "loadView"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "modalTransitionController"]
+- ["PSo16NSObjectProtocol", "saveOrder"]
+- ["PSo16NSObjectProtocol", "theView"]
+- !private ["PSo16NSObjectProtocol", "topLayoutGuide"]
+- !private ["PSo16NSObjectProtocol", "topOffset"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLayoutSubviews"]
+- !private ["PSo16NSObjectProtocol", "viewModel"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- !private ["P7RxSwift18ReactiveCompatible", "ListOrder"]
+- !private ["P7RxSwift18ReactiveCompatible", "ListOrderViewModel"]
+- ["P7RxSwift18ReactiveCompatible", "ModalTransition"]
+- !private ["P7RxSwift18ReactiveCompatible", "UIScreen"]
+- !private ["P7RxSwift18ReactiveCompatible", "bounds"]
+- ["P7RxSwift18ReactiveCompatible", "delegate"]
+- ["P7RxSwift18ReactiveCompatible", "didEnd"]
+- !private ["P7RxSwift18ReactiveCompatible", "dismiss"]
+- !private ["P7RxSwift18ReactiveCompatible", "fatalError"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- ["P7RxSwift18ReactiveCompatible", "item"]
+- ["P7RxSwift18ReactiveCompatible", "loadView"]
+- !private ["P7RxSwift18ReactiveCompatible", "main"]
+- ["P7RxSwift18ReactiveCompatible", "modalTransitionController"]
+- ["P7RxSwift18ReactiveCompatible", "saveOrder"]
+- ["P7RxSwift18ReactiveCompatible", "theView"]
+- !private ["P7RxSwift18ReactiveCompatible", "topLayoutGuide"]
+- !private ["P7RxSwift18ReactiveCompatible", "topOffset"]
+- !private ["P7RxSwift18ReactiveCompatible", "view"]
+- !private ["P7RxSwift18ReactiveCompatible", "viewDidAppear"]
+- ["P7RxSwift18ReactiveCompatible", "viewDidLayoutSubviews"]
+- !private ["P7RxSwift18ReactiveCompatible", "viewModel"]
+- ["P7RxSwift18ReactiveCompatible", "viewWillAppear"]
+- ["P7RxSwift18ReactiveCompatible", ""]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "topOffset"]
+- !private ["PSo29UIAccessibilityIdentification", "viewModel"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "topOffset"]
+- !private ["PSo12UIAppearance", "viewModel"]
+- !private ["PSo21UIAppearanceContainer", "ListOrder"]
+- !private ["PSo21UIAppearanceContainer", "ListOrderViewModel"]
+- ["PSo21UIAppearanceContainer", "ModalTransition"]
+- !private ["PSo21UIAppearanceContainer", "UIScreen"]
+- ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didEnd"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "item"]
+- ["PSo21UIAppearanceContainer", "loadView"]
+- ["PSo21UIAppearanceContainer", "modalTransitionController"]
+- ["PSo21UIAppearanceContainer", "saveOrder"]
+- ["PSo21UIAppearanceContainer", "theView"]
+- !private ["PSo21UIAppearanceContainer", "topLayoutGuide"]
+- !private ["PSo21UIAppearanceContainer", "topOffset"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLayoutSubviews"]
+- !private ["PSo21UIAppearanceContainer", "viewModel"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "ListOrder"]
+- !private ["PSo18UIContentContainer", "ListOrderViewModel"]
+- ["PSo18UIContentContainer", "ModalTransition"]
+- !private ["PSo18UIContentContainer", "UIScreen"]
+- ["PSo18UIContentContainer", "delegate"]
+- ["PSo18UIContentContainer", "didEnd"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "item"]
+- ["PSo18UIContentContainer", "loadView"]
+- ["PSo18UIContentContainer", "modalTransitionController"]
+- ["PSo18UIContentContainer", "saveOrder"]
+- ["PSo18UIContentContainer", "theView"]
+- !private ["PSo18UIContentContainer", "topLayoutGuide"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLayoutSubviews"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "topOffset"]
+- !private ["PSo17UICoordinateSpace", "viewModel"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "topOffset"]
+- !private ["PSo13UIDynamicItem", "viewModel"]
+- !private ["PSo18UIFocusEnvironment", "ListOrder"]
+- !private ["PSo18UIFocusEnvironment", "ListOrderViewModel"]
+- ["PSo18UIFocusEnvironment", "ModalTransition"]
+- !private ["PSo18UIFocusEnvironment", "UIScreen"]
+- ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didEnd"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "item"]
+- ["PSo18UIFocusEnvironment", "loadView"]
+- ["PSo18UIFocusEnvironment", "modalTransitionController"]
+- ["PSo18UIFocusEnvironment", "saveOrder"]
+- ["PSo18UIFocusEnvironment", "theView"]
+- !private ["PSo18UIFocusEnvironment", "topLayoutGuide"]
+- !private ["PSo18UIFocusEnvironment", "topOffset"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLayoutSubviews"]
+- !private ["PSo18UIFocusEnvironment", "viewModel"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "topOffset"]
+- !private ["PSo11UIFocusItem", "viewModel"]
+- ["PSo15UILayoutSupport", "deinit"]
+- !private ["PSo15UILayoutSupport", "length"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Item"]
+- ["CSo11UIResponder", "ListOrder"]
+- !private ["CSo11UIResponder", "ListOrderViewModel"]
+- ["CSo11UIResponder", "ListOrdersViewControllerDelegate"]
+- ["CSo11UIResponder", "ModalTransition"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "UIScreen"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didEnd"]
+- !private ["CSo11UIResponder", "dismiss"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "item"]
+- ["CSo11UIResponder", "loadView"]
+- ["CSo11UIResponder", "modalTransitionController"]
+- ["CSo11UIResponder", "saveOrder"]
+- ["CSo11UIResponder", "theView"]
+- !private ["CSo11UIResponder", "topLayoutGuide"]
+- !private ["CSo11UIResponder", "topOffset"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLayoutSubviews"]
+- !private ["CSo11UIResponder", "viewModel"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["PSo30UIResponderStandardEditActions", "ListOrder"]
+- !private ["PSo30UIResponderStandardEditActions", "ListOrderViewModel"]
+- ["PSo30UIResponderStandardEditActions", "ModalTransition"]
+- !private ["PSo30UIResponderStandardEditActions", "UIScreen"]
+- ["PSo30UIResponderStandardEditActions", "delegate"]
+- ["PSo30UIResponderStandardEditActions", "didEnd"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "item"]
+- ["PSo30UIResponderStandardEditActions", "loadView"]
+- ["PSo30UIResponderStandardEditActions", "modalTransitionController"]
+- ["PSo30UIResponderStandardEditActions", "saveOrder"]
+- ["PSo30UIResponderStandardEditActions", "theView"]
+- !private ["PSo30UIResponderStandardEditActions", "topLayoutGuide"]
+- !private ["PSo30UIResponderStandardEditActions", "topOffset"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidAppear"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLayoutSubviews"]
+- !private ["PSo30UIResponderStandardEditActions", "viewModel"]
+- ["PSo30UIResponderStandardEditActions", "viewWillAppear"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo8UIScreen", "bounds"]
+- ["CSo8UIScreen", "deinit"]
+- !private ["CSo8UIScreen", "main"]
+- !private ["PSo16UIStateRestoring", "ListOrder"]
+- !private ["PSo16UIStateRestoring", "ListOrderViewModel"]
+- ["PSo16UIStateRestoring", "ModalTransition"]
+- !private ["PSo16UIStateRestoring", "UIScreen"]
+- ["PSo16UIStateRestoring", "delegate"]
+- ["PSo16UIStateRestoring", "didEnd"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "item"]
+- ["PSo16UIStateRestoring", "loadView"]
+- ["PSo16UIStateRestoring", "modalTransitionController"]
+- ["PSo16UIStateRestoring", "saveOrder"]
+- ["PSo16UIStateRestoring", "theView"]
+- !private ["PSo16UIStateRestoring", "topLayoutGuide"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLayoutSubviews"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "ListOrder"]
+- !private ["PSo18UITraitEnvironment", "ListOrderViewModel"]
+- ["PSo18UITraitEnvironment", "ModalTransition"]
+- !private ["PSo18UITraitEnvironment", "UIScreen"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didEnd"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "item"]
+- ["PSo18UITraitEnvironment", "loadView"]
+- !private ["PSo18UITraitEnvironment", "main"]
+- ["PSo18UITraitEnvironment", "modalTransitionController"]
+- ["PSo18UITraitEnvironment", "saveOrder"]
+- ["PSo18UITraitEnvironment", "theView"]
+- !private ["PSo18UITraitEnvironment", "topLayoutGuide"]
+- !private ["PSo18UITraitEnvironment", "topOffset"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLayoutSubviews"]
+- !private ["PSo18UITraitEnvironment", "viewModel"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "topOffset"]
+- !private ["CSo6UIView", "viewModel"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "Item"]
+- ["CSo16UIViewController", "ListOrder"]
+- !private ["CSo16UIViewController", "ListOrderViewModel"]
+- ["CSo16UIViewController", "ListOrdersViewControllerDelegate"]
+- ["CSo16UIViewController", "ModalTransition"]
+- ["CSo16UIViewController", "NSCoder"]
+- !private ["CSo16UIViewController", "UIScreen"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "delegate"]
+- ["CSo16UIViewController", "didEnd"]
+- !private ["CSo16UIViewController", "dismiss"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "item"]
+- ["CSo16UIViewController", "loadView"]
+- ["CSo16UIViewController", "modalTransitionController"]
+- ["CSo16UIViewController", "saveOrder"]
+- ["CSo16UIViewController", "theView"]
+- !private ["CSo16UIViewController", "topLayoutGuide"]
+- !private ["CSo16UIViewController", "view"]
+- !private ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLayoutSubviews"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- ["PSo37UIViewControllerAnimatedTransitioning", "init"]
+- ["PSo37UIViewControllerTransitioningDelegate", "init"]
+- ["Su", "deinit"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "topOffset"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "viewModel"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "ListOrder"]
+- !private ["Ps9_Hashable", "ListOrderViewModel"]
+- ["Ps9_Hashable", "ModalTransition"]
+- !private ["Ps9_Hashable", "UIScreen"]
+- !private ["Ps9_Hashable", "bounds"]
+- ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "didEnd"]
+- !private ["Ps9_Hashable", "dismiss"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "item"]
+- ["Ps9_Hashable", "loadView"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "modalTransitionController"]
+- ["Ps9_Hashable", "saveOrder"]
+- ["Ps9_Hashable", "theView"]
+- !private ["Ps9_Hashable", "topLayoutGuide"]
+- !private ["Ps9_Hashable", "topOffset"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "viewDidAppear"]
+- ["Ps9_Hashable", "viewDidLayoutSubviews"]
+- !private ["Ps9_Hashable", "viewModel"]
+- ["Ps9_Hashable", "viewWillAppear"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "V7Appetit4Item"
+- "C7Appetit9ListOrder"
+- "V7Appetit18ListOrderViewModel"
+- "P7Appetit26ListOrderViewModelProtocol"
+- "C7Appetit24ListOrdersViewController"
+- "P7Appetit32ListOrdersViewControllerDelegate"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C7Appetit15ModalTransition"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "PSo15UILayoutSupport"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo8UIScreen"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "PSo37UIViewControllerAnimatedTransitioning"
+- "PSo37UIViewControllerTransitioningDelegate"
+- "Su"
+- !private "P9Alamofire14URLConvertible"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/Reusable.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+interface-hash: "8b80b302d8af17ea8184a4c51bcd3880"

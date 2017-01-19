@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "33ef169dcaf44061e21a3bf685ca8d2c"
+build_time: [538026429, 16240000]
+inputs:
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/AFError.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/Alamofire.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/MultipartFormData.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/Notifications.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/ParameterEncoding.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/Request.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/Response.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/ResponseSerialization.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/Result.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/ServerTrustPolicy.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/SessionDelegate.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/SessionManager.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/TaskDelegate.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/Timeline.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Alamofire/Source/Validation.swift": [537928306, 0]

@@ -1,0 +1,313 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/CryptoSwift/CryptoSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CryptoSwift-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/CryptoSwift/CryptoSwift.framework/Headers/CryptoSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CryptoSwift-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/CryptoSwift/CryptoSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/CryptoSwift/CryptoSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/CryptoSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Dollar/Dollar.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Dollar-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Dollar/Dollar.framework/Headers/Dollar-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Dollar-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Dollar/Dollar-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Dollar.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Dollar/Sources/Dollar.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Dollar/Dollar.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Dollar.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Kingfisher-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Kingfisher-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Kingfisher.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Kingfisher/Sources/Kingfisher.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Moya-ObjectMapper-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Moya-ObjectMapper/Moya-ObjectMapper-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Moya_ObjectMapper-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Moya-ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Moya-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Moya-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Moya/Moya-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Moya.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Pods_Appetit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Appetit-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Pods-Appetit/Pods-Appetit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Appetit-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Pods_Appetit.framework/Headers/Pods_Appetit-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Pods_Appetit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Appetit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Result-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Result-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Result/Result-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Reusable-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Reusable-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Reusable/Reusable-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Reusable.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxSwift-Swift.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxSwift-umbrella.h",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

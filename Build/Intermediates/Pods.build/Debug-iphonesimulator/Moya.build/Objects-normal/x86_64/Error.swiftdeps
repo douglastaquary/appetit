@@ -1,0 +1,79 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Error"
+provides-nominal:
+- "O4Moya5Error"
+provides-member:
+- ["O4Moya5Error", ""]
+- ["O4Moya5Error", "response"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Moya"
+- "Swift"
+- "Error"
+- "Response"
+- "String"
+depends-member:
+- ["O4Moya5Error", "Moya"]
+- ["O4Moya5Error", "Response"]
+- ["O4Moya5Error", "String"]
+- ["O4Moya5Error", "Swift"]
+- ["O4Moya5Error", "_code"]
+- ["O4Moya5Error", "_domain"]
+- ["O4Moya5Error", "_getEmbeddedNSError"]
+- ["O4Moya5Error", "_userInfo"]
+- ["O4Moya5Error", "data"]
+- ["O4Moya5Error", "deinit"]
+- ["O4Moya5Error", "imageMapping"]
+- ["O4Moya5Error", "jsonMapping"]
+- ["O4Moya5Error", "requestMapping"]
+- ["O4Moya5Error", "response"]
+- ["O4Moya5Error", "statusCode"]
+- ["O4Moya5Error", "stringMapping"]
+- ["O4Moya5Error", "underlying"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "data"]
+- ["Ps5Error", "imageMapping"]
+- ["Ps5Error", "jsonMapping"]
+- ["Ps5Error", "requestMapping"]
+- ["Ps5Error", "statusCode"]
+- ["Ps5Error", "stringMapping"]
+- ["Ps5Error", "underlying"]
+- ["Ps5Error", ""]
+- ["Sq", "deinit"]
+- ["C4Moya8Response", "deinit"]
+depends-nominal:
+- "O4Moya5Error"
+- "Ps5Error"
+- "Sq"
+- "C4Moya8Response"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Moya/Moya-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Moya.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "84ca880854d72a08e51c0379a732e0c2"

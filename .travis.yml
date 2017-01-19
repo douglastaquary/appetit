@@ -1,0 +1,23 @@
+language: objective-c
+osx_image: xcode8.1
+
+branches:
+ only:
+ - master
+ - develop
+
+cache:
+- bundler
+- cocoapods
+
+before_install:
+- bundle install
+- gem install danger
+- pod repo update
+
+script:
+- bundle exec fastlane test
+- bundle exec danger
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

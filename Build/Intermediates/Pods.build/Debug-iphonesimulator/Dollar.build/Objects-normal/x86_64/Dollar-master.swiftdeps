@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "3e6d6b58634ad11c07c52cdec2695557"
+build_time: [538026439, 124337000]
+inputs:
+  "/iOS Projects/Github repositories/appetit/Pods/Dollar/Sources/AutoBind.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Dollar/Sources/AutoCurry.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Dollar/Sources/Dollar.swift": [537928306, 0]

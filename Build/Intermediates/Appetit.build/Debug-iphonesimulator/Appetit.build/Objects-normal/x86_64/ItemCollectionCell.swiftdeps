@@ -1,0 +1,716 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ItemCollectionCell"
+provides-nominal:
+- "C7Appetit18ItemCollectionCell"
+provides-member:
+- ["C7Appetit18ItemCollectionCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "price"
+- "imageBackground"
+- "size"
+- "configure"
+- "name"
+depends-top-level:
+- "Item"
+- "UIImageView"
+- !private "/"
+- !private "??"
+- "UICollectionViewCell"
+- "CGFloat"
+- "ItemCollectionCell"
+- "AssignmentPrecedence"
+- "CGSize"
+- !private "StringLiteralType"
+- "NibReusable"
+- "UILabel"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGSize"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "configure"]
+- !private ["Ps9AnyObject", "cornerRadius"]
+- !private ["Ps9AnyObject", "download"]
+- ["Ps9AnyObject", "imageBackground"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "nib"]
+- ["Ps9AnyObject", "price"]
+- ["Ps9AnyObject", "reuseIdentifier"]
+- ["Ps9AnyObject", "setup"]
+- ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", ""]
+- !private ["P12ObjectMapper12BaseMappable", "fullPath"]
+- !private ["P12ObjectMapper12BaseMappable", "name"]
+- !private ["P12ObjectMapper12BaseMappable", "price"]
+- !private ["P12ObjectMapper12BaseMappable", "thumImage"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "deinit"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- ["CSo7CALayer", "deinit"]
+- !private ["PSo15CALayerDelegate", "CGFloat"]
+- !private ["PSo15CALayerDelegate", "CGSize"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- ["PSo15CALayerDelegate", "configure"]
+- !private ["PSo15CALayerDelegate", "download"]
+- ["PSo15CALayerDelegate", "imageBackground"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- ["PSo15CALayerDelegate", "name"]
+- ["PSo15CALayerDelegate", "nib"]
+- ["PSo15CALayerDelegate", "price"]
+- ["PSo15CALayerDelegate", "reuseIdentifier"]
+- ["PSo15CALayerDelegate", "setup"]
+- ["PSo15CALayerDelegate", "size"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- ["VSC6CGRect", "deinit"]
+- ["VSC6CGSize", "deinit"]
+- !private ["VSC6CGSize", "init"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGSize"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- ["Ps7CVarArg", "configure"]
+- !private ["Ps7CVarArg", "cornerRadius"]
+- !private ["Ps7CVarArg", "download"]
+- ["Ps7CVarArg", "imageBackground"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layer"]
+- ["Ps7CVarArg", "name"]
+- ["Ps7CVarArg", "nib"]
+- ["Ps7CVarArg", "price"]
+- ["Ps7CVarArg", "reuseIdentifier"]
+- ["Ps7CVarArg", "setup"]
+- ["Ps7CVarArg", "size"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSize"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "configure"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "download"]
+- ["Ps28CustomDebugStringConvertible", "imageBackground"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "nib"]
+- ["Ps28CustomDebugStringConvertible", "price"]
+- ["Ps28CustomDebugStringConvertible", "reuseIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "setup"]
+- ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGSize"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "configure"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
+- !private ["Ps23CustomStringConvertible", "download"]
+- ["Ps23CustomStringConvertible", "imageBackground"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "nib"]
+- ["Ps23CustomStringConvertible", "price"]
+- ["Ps23CustomStringConvertible", "reuseIdentifier"]
+- ["Ps23CustomStringConvertible", "setup"]
+- ["Ps23CustomStringConvertible", "size"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGSize"]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "configure"]
+- !private ["Ps9Equatable", "cornerRadius"]
+- !private ["Ps9Equatable", "download"]
+- ["Ps9Equatable", "imageBackground"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "nib"]
+- ["Ps9Equatable", "price"]
+- ["Ps9Equatable", "reuseIdentifier"]
+- ["Ps9Equatable", "setup"]
+- ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGSize"]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "configure"]
+- !private ["Ps8Hashable", "cornerRadius"]
+- !private ["Ps8Hashable", "download"]
+- ["Ps8Hashable", "imageBackground"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "nib"]
+- ["Ps8Hashable", "price"]
+- ["Ps8Hashable", "reuseIdentifier"]
+- ["Ps8Hashable", "setup"]
+- ["Ps8Hashable", "size"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- ["V7Appetit4Item", "deinit"]
+- !private ["V7Appetit4Item", "name"]
+- !private ["V7Appetit4Item", "price"]
+- !private ["V7Appetit4Item", "thumImage"]
+- ["C7Appetit18ItemCollectionCell", "CGFloat"]
+- ["C7Appetit18ItemCollectionCell", "CGSize"]
+- ["C7Appetit18ItemCollectionCell", "Item"]
+- ["C7Appetit18ItemCollectionCell", "UIImageView"]
+- ["C7Appetit18ItemCollectionCell", "UILabel"]
+- ["C7Appetit18ItemCollectionCell", "awakeFromNib"]
+- ["C7Appetit18ItemCollectionCell", "configure"]
+- ["C7Appetit18ItemCollectionCell", "deinit"]
+- ["C7Appetit18ItemCollectionCell", "imageBackground"]
+- ["C7Appetit18ItemCollectionCell", "init"]
+- ["C7Appetit18ItemCollectionCell", "name"]
+- ["C7Appetit18ItemCollectionCell", "nib"]
+- ["C7Appetit18ItemCollectionCell", "price"]
+- ["C7Appetit18ItemCollectionCell", "reuseIdentifier"]
+- ["C7Appetit18ItemCollectionCell", "setup"]
+- ["C7Appetit18ItemCollectionCell", "size"]
+- !private ["P10Kingfisher20KingfisherCompatible", "download"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["P10Kingfisher20KingfisherCompatible", "layer"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["P12ObjectMapper8Mappable", "fullPath"]
+- !private ["P12ObjectMapper8Mappable", "name"]
+- !private ["P12ObjectMapper8Mappable", "price"]
+- !private ["P12ObjectMapper8Mappable", "thumImage"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGSize"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "configure"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- !private ["PSo8NSCoding", "download"]
+- ["PSo8NSCoding", "imageBackground"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "name"]
+- ["PSo8NSCoding", "nib"]
+- ["PSo8NSCoding", "price"]
+- ["PSo8NSCoding", "reuseIdentifier"]
+- ["PSo8NSCoding", "setup"]
+- ["PSo8NSCoding", "size"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "Item"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "configure"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "download"]
+- ["CSo8NSObject", "imageBackground"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "nib"]
+- ["CSo8NSObject", "price"]
+- ["CSo8NSObject", "reuseIdentifier"]
+- ["CSo8NSObject", "setup"]
+- ["CSo8NSObject", "size"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGSize"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "configure"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "download"]
+- ["PSo16NSObjectProtocol", "imageBackground"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "nib"]
+- ["PSo16NSObjectProtocol", "price"]
+- ["PSo16NSObjectProtocol", "reuseIdentifier"]
+- ["PSo16NSObjectProtocol", "setup"]
+- ["PSo16NSObjectProtocol", "size"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P8Reusable11NibLoadable", "CGFloat"]
+- !private ["P8Reusable11NibLoadable", "CGSize"]
+- !private ["P8Reusable11NibLoadable", "configure"]
+- !private ["P8Reusable11NibLoadable", "imageBackground"]
+- !private ["P8Reusable11NibLoadable", "name"]
+- ["P8Reusable11NibLoadable", "nib"]
+- !private ["P8Reusable11NibLoadable", "price"]
+- ["P8Reusable11NibLoadable", "reuseIdentifier"]
+- ["P8Reusable11NibLoadable", ""]
+- ["Sq", "deinit"]
+- !private ["P7RxSwift18ReactiveCompatible", "CGFloat"]
+- !private ["P7RxSwift18ReactiveCompatible", "CGSize"]
+- ["P7RxSwift18ReactiveCompatible", "awakeFromNib"]
+- ["P7RxSwift18ReactiveCompatible", "configure"]
+- !private ["P7RxSwift18ReactiveCompatible", "cornerRadius"]
+- !private ["P7RxSwift18ReactiveCompatible", "download"]
+- ["P7RxSwift18ReactiveCompatible", "imageBackground"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "layer"]
+- ["P7RxSwift18ReactiveCompatible", "name"]
+- ["P7RxSwift18ReactiveCompatible", "nib"]
+- ["P7RxSwift18ReactiveCompatible", "price"]
+- ["P7RxSwift18ReactiveCompatible", "reuseIdentifier"]
+- ["P7RxSwift18ReactiveCompatible", "setup"]
+- ["P7RxSwift18ReactiveCompatible", "size"]
+- !private ["P7RxSwift18ReactiveCompatible", "text"]
+- ["P7RxSwift18ReactiveCompatible", ""]
+- !private ["P8Reusable8Reusable", "CGFloat"]
+- !private ["P8Reusable8Reusable", "CGSize"]
+- !private ["P8Reusable8Reusable", "configure"]
+- !private ["P8Reusable8Reusable", "imageBackground"]
+- !private ["P8Reusable8Reusable", "name"]
+- ["P8Reusable8Reusable", "nib"]
+- !private ["P8Reusable8Reusable", "price"]
+- ["P8Reusable8Reusable", "reuseIdentifier"]
+- ["P8Reusable8Reusable", ""]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V7Appetit10ThumbImage", "deinit"]
+- !private ["V7Appetit10ThumbImage", "fullPath"]
+- !private ["PSo29UIAccessibilityIdentification", "CGFloat"]
+- !private ["PSo29UIAccessibilityIdentification", "CGSize"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "configure"]
+- !private ["PSo29UIAccessibilityIdentification", "download"]
+- ["PSo29UIAccessibilityIdentification", "imageBackground"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "name"]
+- ["PSo29UIAccessibilityIdentification", "nib"]
+- ["PSo29UIAccessibilityIdentification", "price"]
+- ["PSo29UIAccessibilityIdentification", "reuseIdentifier"]
+- ["PSo29UIAccessibilityIdentification", "setup"]
+- ["PSo29UIAccessibilityIdentification", "size"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGFloat"]
+- !private ["PSo12UIAppearance", "CGSize"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "configure"]
+- !private ["PSo12UIAppearance", "download"]
+- ["PSo12UIAppearance", "imageBackground"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "name"]
+- ["PSo12UIAppearance", "nib"]
+- ["PSo12UIAppearance", "price"]
+- ["PSo12UIAppearance", "reuseIdentifier"]
+- ["PSo12UIAppearance", "setup"]
+- ["PSo12UIAppearance", "size"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "CGSize"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "configure"]
+- !private ["PSo21UIAppearanceContainer", "download"]
+- ["PSo21UIAppearanceContainer", "imageBackground"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "name"]
+- ["PSo21UIAppearanceContainer", "nib"]
+- ["PSo21UIAppearanceContainer", "price"]
+- ["PSo21UIAppearanceContainer", "reuseIdentifier"]
+- ["PSo21UIAppearanceContainer", "setup"]
+- ["PSo21UIAppearanceContainer", "size"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo24UICollectionReusableView", "CGFloat"]
+- ["CSo24UICollectionReusableView", "CGSize"]
+- ["CSo24UICollectionReusableView", "Item"]
+- ["CSo24UICollectionReusableView", "UIImageView"]
+- ["CSo24UICollectionReusableView", "UILabel"]
+- ["CSo24UICollectionReusableView", "awakeFromNib"]
+- ["CSo24UICollectionReusableView", "configure"]
+- ["CSo24UICollectionReusableView", "imageBackground"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "name"]
+- ["CSo24UICollectionReusableView", "nib"]
+- ["CSo24UICollectionReusableView", "price"]
+- ["CSo24UICollectionReusableView", "reuseIdentifier"]
+- ["CSo24UICollectionReusableView", "setup"]
+- ["CSo24UICollectionReusableView", "size"]
+- ["CSo20UICollectionViewCell", "CGFloat"]
+- ["CSo20UICollectionViewCell", "CGSize"]
+- ["CSo20UICollectionViewCell", "Item"]
+- ["CSo20UICollectionViewCell", "UIImageView"]
+- ["CSo20UICollectionViewCell", "UILabel"]
+- ["CSo20UICollectionViewCell", "awakeFromNib"]
+- ["CSo20UICollectionViewCell", "configure"]
+- ["CSo20UICollectionViewCell", "deinit"]
+- ["CSo20UICollectionViewCell", "imageBackground"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "name"]
+- ["CSo20UICollectionViewCell", "nib"]
+- ["CSo20UICollectionViewCell", "price"]
+- ["CSo20UICollectionViewCell", "reuseIdentifier"]
+- ["CSo20UICollectionViewCell", "setup"]
+- ["CSo20UICollectionViewCell", "size"]
+- ["CSo20UICollectionViewCell", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "CGFloat"]
+- !private ["PSo17UICoordinateSpace", "CGSize"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "configure"]
+- !private ["PSo17UICoordinateSpace", "download"]
+- ["PSo17UICoordinateSpace", "imageBackground"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "name"]
+- ["PSo17UICoordinateSpace", "nib"]
+- ["PSo17UICoordinateSpace", "price"]
+- ["PSo17UICoordinateSpace", "reuseIdentifier"]
+- ["PSo17UICoordinateSpace", "setup"]
+- ["PSo17UICoordinateSpace", "size"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGFloat"]
+- !private ["PSo13UIDynamicItem", "CGSize"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "configure"]
+- !private ["PSo13UIDynamicItem", "download"]
+- ["PSo13UIDynamicItem", "imageBackground"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "name"]
+- ["PSo13UIDynamicItem", "nib"]
+- ["PSo13UIDynamicItem", "price"]
+- ["PSo13UIDynamicItem", "reuseIdentifier"]
+- ["PSo13UIDynamicItem", "setup"]
+- ["PSo13UIDynamicItem", "size"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "CGSize"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "configure"]
+- !private ["PSo18UIFocusEnvironment", "download"]
+- ["PSo18UIFocusEnvironment", "imageBackground"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "name"]
+- ["PSo18UIFocusEnvironment", "nib"]
+- ["PSo18UIFocusEnvironment", "price"]
+- ["PSo18UIFocusEnvironment", "reuseIdentifier"]
+- ["PSo18UIFocusEnvironment", "setup"]
+- ["PSo18UIFocusEnvironment", "size"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGFloat"]
+- !private ["PSo11UIFocusItem", "CGSize"]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- ["PSo11UIFocusItem", "configure"]
+- !private ["PSo11UIFocusItem", "download"]
+- ["PSo11UIFocusItem", "imageBackground"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layer"]
+- ["PSo11UIFocusItem", "name"]
+- ["PSo11UIFocusItem", "nib"]
+- ["PSo11UIFocusItem", "price"]
+- ["PSo11UIFocusItem", "reuseIdentifier"]
+- ["PSo11UIFocusItem", "setup"]
+- ["PSo11UIFocusItem", "size"]
+- !private ["PSo11UIFocusItem", "text"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo11UIImageView", "download"]
+- !private ["CSo11UIImageView", "layer"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGSize"]
+- ["CSo11UIResponder", "Item"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "configure"]
+- !private ["CSo11UIResponder", "download"]
+- ["CSo11UIResponder", "imageBackground"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "name"]
+- ["CSo11UIResponder", "nib"]
+- ["CSo11UIResponder", "price"]
+- ["CSo11UIResponder", "reuseIdentifier"]
+- ["CSo11UIResponder", "setup"]
+- ["CSo11UIResponder", "size"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "CGFloat"]
+- !private ["PSo30UIResponderStandardEditActions", "CGSize"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- ["PSo30UIResponderStandardEditActions", "configure"]
+- !private ["PSo30UIResponderStandardEditActions", "download"]
+- ["PSo30UIResponderStandardEditActions", "imageBackground"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- ["PSo30UIResponderStandardEditActions", "name"]
+- ["PSo30UIResponderStandardEditActions", "nib"]
+- ["PSo30UIResponderStandardEditActions", "price"]
+- ["PSo30UIResponderStandardEditActions", "reuseIdentifier"]
+- ["PSo30UIResponderStandardEditActions", "setup"]
+- ["PSo30UIResponderStandardEditActions", "size"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "CGSize"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "configure"]
+- !private ["PSo18UITraitEnvironment", "download"]
+- ["PSo18UITraitEnvironment", "imageBackground"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "name"]
+- ["PSo18UITraitEnvironment", "nib"]
+- ["PSo18UITraitEnvironment", "price"]
+- ["PSo18UITraitEnvironment", "reuseIdentifier"]
+- ["PSo18UITraitEnvironment", "setup"]
+- ["PSo18UITraitEnvironment", "size"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGSize"]
+- ["CSo6UIView", "Item"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "configure"]
+- !private ["CSo6UIView", "download"]
+- ["CSo6UIView", "imageBackground"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "name"]
+- ["CSo6UIView", "nib"]
+- ["CSo6UIView", "price"]
+- ["CSo6UIView", "reuseIdentifier"]
+- ["CSo6UIView", "setup"]
+- ["CSo6UIView", "size"]
+- !private ["CSo6UIView", "text"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGFloat"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGSize"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "configure"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "download"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "imageBackground"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "name"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "nib"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "price"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "reuseIdentifier"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setup"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "size"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGSize"]
+- ["Ps9_Hashable", "awakeFromNib"]
+- ["Ps9_Hashable", "configure"]
+- !private ["Ps9_Hashable", "cornerRadius"]
+- !private ["Ps9_Hashable", "download"]
+- ["Ps9_Hashable", "imageBackground"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layer"]
+- ["Ps9_Hashable", "name"]
+- ["Ps9_Hashable", "nib"]
+- ["Ps9_Hashable", "price"]
+- ["Ps9_Hashable", "reuseIdentifier"]
+- ["Ps9_Hashable", "setup"]
+- ["Ps9_Hashable", "size"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "P12ObjectMapper12BaseMappable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "V7Appetit4Item"
+- "C7Appetit18ItemCollectionCell"
+- !private "P10Kingfisher20KingfisherCompatible"
+- !private "Ps25LosslessStringConvertible"
+- !private "P12ObjectMapper8Mappable"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "P8Reusable11NibLoadable"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- "P8Reusable8Reusable"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V7Appetit10ThumbImage"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire14URLConvertible"
+- !private "Sc"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/Reusable.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+interface-hash: "5ed29ab83a7bc381e7f59ab04d883329"

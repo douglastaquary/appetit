@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A9513242F94D9454FADFDA /* Pods_Appetit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D98D89F0C5A221CA2DC168 /* Pods_Appetit.framework */; };
+		8FC9355D91F5233753A264DB /* Pods_AppetitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E01EF2B460BAA0D5DB7B73 /* Pods_AppetitTests.framework */; };
+		97EFF2861E2DA35200CA2F83 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2851E2DA35200CA2F83 /* ClearButton.swift */; };
+		97EFF2881E2DA38B00CA2F83 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2871E2DA38B00CA2F83 /* GradientView.swift */; };
+		97EFF28A1E2DA3BC00CA2F83 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2891E2DA3BC00CA2F83 /* Style.swift */; };
+		97EFF28C1E2DA66100CA2F83 /* TintButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF28B1E2DA66100CA2F83 /* TintButton.swift */; };
+		97EFF28E1E2DB2DE00CA2F83 /* TextDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF28D1E2DB2DE00CA2F83 /* TextDescriptionView.swift */; };
+		97EFF2911E2DB5BB00CA2F83 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2901E2DB5BB00CA2F83 /* ModalTransition.swift */; };
+		97EFF2961E2DC11E00CA2F83 /* ListOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2951E2DC11E00CA2F83 /* ListOrders.swift */; };
+		97EFF2981E2DC38600CA2F83 /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2971E2DC38600CA2F83 /* ListOrdersViewController.swift */; };
+		97EFF29A1E2DC48E00CA2F83 /* AppCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2991E2DC48E00CA2F83 /* AppCoordinate.swift */; };
+		97EFF29D1E2DCD0C00CA2F83 /* UIImage+WithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF29C1E2DCD0C00CA2F83 /* UIImage+WithColor.swift */; };
+		97EFF2A01E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF29F1E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift */; };
+		97EFF2A21E2F0B7200CA2F83 /* ListOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2A11E2F0B7200CA2F83 /* ListOrderViewModel.swift */; };
+		97EFF2A41E30742400CA2F83 /* ThumbImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2A31E30742400CA2F83 /* ThumbImage.swift */; };
+		97EFF2A61E30757100CA2F83 /* UIImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2A51E30757100CA2F83 /* UIImage+Kingfisher.swift */; };
+		EF0019241E1445F00082CA7D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019231E1445F00082CA7D /* Item.swift */; };
+		EF0019281E14470E0082CA7D /* AppetitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019271E14470E0082CA7D /* AppetitAPI.swift */; };
+		EF00192B1E144B3E0082CA7D /* ItemCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00192A1E144B3E0082CA7D /* ItemCollectionCell.swift */; };
+		EF00192D1E144B6A0082CA7D /* ItemCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF00192C1E144B6A0082CA7D /* ItemCollectionCell.xib */; };
+		EF0019301E144C660082CA7D /* ItemsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00192F1E144C660082CA7D /* ItemsCollectionViewDataSource.swift */; };
+		EF0019321E144E3F0082CA7D /* ItemCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019311E144E3F0082CA7D /* ItemCollectionDataSource.swift */; };
+		EF1359251E1451DB00DC6B66 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1359241E1451DB00DC6B66 /* ItemsViewController.swift */; };
+		EF1359271E145A6800DC6B66 /* AppetitAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1359261E145A6800DC6B66 /* AppetitAPIManager.swift */; };
+		EF13592A1E14600000DC6B66 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1359291E14600000DC6B66 /* items.json */; };
+		EF13592D1E1535D700DC6B66 /* MockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF13592C1E1535D700DC6B66 /* MockLoader.swift */; };
+		EF13592F1E153AC400DC6B66 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF13592E1E153AC400DC6B66 /* ItemViewController.swift */; };
+		EF1359331E15869800DC6B66 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1359321E15869800DC6B66 /* Storyboard.swift */; };
+		EF18B40C1E16862600BA897B /* FiristSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18B40B1E16862600BA897B /* FiristSpec.swift */; };
+		EF18B40F1E1689FD00BA897B /* ItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18B40E1E1689FD00BA897B /* ItemSpec.swift */; };
+		EF18B4111E16982F00BA897B /* ItemsViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18B4101E16982F00BA897B /* ItemsViewControllerSpec.swift */; };
+		EF2CA8511E142FC600D87C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2CA8501E142FC600D87C60 /* AppDelegate.swift */; };
+		EF2CA8561E142FC600D87C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CA8541E142FC600D87C60 /* Main.storyboard */; };
+		EF2CA8581E142FC600D87C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2CA8571E142FC600D87C60 /* Assets.xcassets */; };
+		EF2CA85B1E142FC600D87C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CA8591E142FC600D87C60 /* LaunchScreen.storyboard */; };
+		EF6D24961E15A02600BFDB86 /* ItemsDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D24951E15A02600BFDB86 /* ItemsDelegateSpec.swift */; };
+		EF6D24991E15AEA400BFDB86 /* ApperanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D24981E15AEA300BFDB86 /* ApperanceHelper.swift */; };
+		EF6D249B1E15AF2200BFDB86 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D249A1E15AF2200BFDB86 /* ColorPalette.swift */; };
+		EFAC50E31E16D8F600BA8B7D /* item.json in Resources */ = {isa = PBXBuildFile; fileRef = EFAC50E21E16D8F600BA8B7D /* item.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF00191D1E1441BC0082CA7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2CA8451E142FC600D87C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2CA84C1E142FC600D87C60;
+			remoteInfo = Appeti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44E01EF2B460BAA0D5DB7B73 /* Pods_AppetitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppetitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		463A930AFD5FE4DFA88005A4 /* Pods-Appetit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Appetit/Pods-Appetit.release.xcconfig"; sourceTree = "<group>"; };
+		756FA66D17739C41BF4845EA /* Pods-Appetit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Appetit/Pods-Appetit.debug.xcconfig"; sourceTree = "<group>"; };
+		83D8992514F34471C5F5E64E /* Pods-AppetitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppetitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppetitTests/Pods-AppetitTests.release.xcconfig"; sourceTree = "<group>"; };
+		97EFF2851E2DA35200CA2F83 /* ClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
+		97EFF2871E2DA38B00CA2F83 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		97EFF2891E2DA3BC00CA2F83 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		97EFF28B1E2DA66100CA2F83 /* TintButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintButton.swift; sourceTree = "<group>"; };
+		97EFF28D1E2DB2DE00CA2F83 /* TextDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDescriptionView.swift; sourceTree = "<group>"; };
+		97EFF2901E2DB5BB00CA2F83 /* ModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		97EFF2951E2DC11E00CA2F83 /* ListOrders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOrders.swift; sourceTree = "<group>"; };
+		97EFF2971E2DC38600CA2F83 /* ListOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
+		97EFF2991E2DC48E00CA2F83 /* AppCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinate.swift; sourceTree = "<group>"; };
+		97EFF29C1E2DCD0C00CA2F83 /* UIImage+WithColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+WithColor.swift"; sourceTree = "<group>"; };
+		97EFF29F1E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " NSAttributedString+FontColor.swift"; sourceTree = "<group>"; };
+		97EFF2A11E2F0B7200CA2F83 /* ListOrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOrderViewModel.swift; sourceTree = "<group>"; };
+		97EFF2A31E30742400CA2F83 /* ThumbImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbImage.swift; sourceTree = "<group>"; };
+		97EFF2A51E30757100CA2F83 /* UIImage+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Kingfisher.swift"; sourceTree = "<group>"; };
+		B9D98D89F0C5A221CA2DC168 /* Pods_Appetit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appetit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0019181E1441BC0082CA7D /* AppetitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF00191C1E1441BC0082CA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0019231E1445F00082CA7D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EF0019271E14470E0082CA7D /* AppetitAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppetitAPI.swift; sourceTree = "<group>"; };
+		EF00192A1E144B3E0082CA7D /* ItemCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionCell.swift; sourceTree = "<group>"; };
+		EF00192C1E144B6A0082CA7D /* ItemCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCollectionCell.xib; sourceTree = "<group>"; };
+		EF00192F1E144C660082CA7D /* ItemsCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		EF0019311E144E3F0082CA7D /* ItemCollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionDataSource.swift; sourceTree = "<group>"; };
+		EF1359241E1451DB00DC6B66 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		EF1359261E145A6800DC6B66 /* AppetitAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppetitAPIManager.swift; sourceTree = "<group>"; };
+		EF1359291E14600000DC6B66 /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		EF13592C1E1535D700DC6B66 /* MockLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockLoader.swift; sourceTree = "<group>"; };
+		EF13592E1E153AC400DC6B66 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		EF1359321E15869800DC6B66 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		EF18B40B1E16862600BA897B /* FiristSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiristSpec.swift; sourceTree = "<group>"; };
+		EF18B40E1E1689FD00BA897B /* ItemSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSpec.swift; sourceTree = "<group>"; };
+		EF18B4101E16982F00BA897B /* ItemsViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewControllerSpec.swift; sourceTree = "<group>"; };
+		EF2CA84D1E142FC600D87C60 /* Appetit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2CA8501E142FC600D87C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF2CA8551E142FC600D87C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2CA8571E142FC600D87C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2CA85A1E142FC600D87C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2CA85C1E142FC600D87C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6D24951E15A02600BFDB86 /* ItemsDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsDelegateSpec.swift; sourceTree = "<group>"; };
+		EF6D24981E15AEA300BFDB86 /* ApperanceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApperanceHelper.swift; sourceTree = "<group>"; };
+		EF6D249A1E15AF2200BFDB86 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		EFAC50E21E16D8F600BA8B7D /* item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item.json; sourceTree = "<group>"; };
+		F984F3ED2EB6B4F7624FA24E /* Pods-AppetitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppetitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppetitTests/Pods-AppetitTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0019151E1441BC0082CA7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC9355D91F5233753A264DB /* Pods_AppetitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2CA84A1E142FC600D87C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A9513242F94D9454FADFDA /* Pods_Appetit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71409FE13BCC57EE8785BD64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				756FA66D17739C41BF4845EA /* Pods-Appetit.debug.xcconfig */,
+				463A930AFD5FE4DFA88005A4 /* Pods-Appetit.release.xcconfig */,
+				F984F3ED2EB6B4F7624FA24E /* Pods-AppetitTests.debug.xcconfig */,
+				83D8992514F34471C5F5E64E /* Pods-AppetitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79F2C038F3FE85436EBC0B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9D98D89F0C5A221CA2DC168 /* Pods_Appetit.framework */,
+				44E01EF2B460BAA0D5DB7B73 /* Pods_AppetitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97EFF2841E2DA2FF00CA2F83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF2851E2DA35200CA2F83 /* ClearButton.swift */,
+				97EFF2871E2DA38B00CA2F83 /* GradientView.swift */,
+				97EFF2891E2DA3BC00CA2F83 /* Style.swift */,
+				97EFF28B1E2DA66100CA2F83 /* TintButton.swift */,
+				97EFF28D1E2DB2DE00CA2F83 /* TextDescriptionView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		97EFF28F1E2DB59200CA2F83 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF2901E2DB5BB00CA2F83 /* ModalTransition.swift */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		97EFF2921E2DB8CB00CA2F83 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF2941E2DB8FB00CA2F83 /* ListOrders */,
+				97EFF2931E2DB8DF00CA2F83 /* Collections */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		97EFF2931E2DB8DF00CA2F83 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
+		97EFF2941E2DB8FB00CA2F83 /* ListOrders */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF2951E2DC11E00CA2F83 /* ListOrders.swift */,
+				97EFF2971E2DC38600CA2F83 /* ListOrdersViewController.swift */,
+				97EFF2A11E2F0B7200CA2F83 /* ListOrderViewModel.swift */,
+			);
+			name = ListOrders;
+			sourceTree = "<group>";
+		};
+		97EFF29B1E2DCCFD00CA2F83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF29C1E2DCD0C00CA2F83 /* UIImage+WithColor.swift */,
+				97EFF29F1E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EF0019191E1441BC0082CA7D /* AppetitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF18B40D1E1689E900BA897B /* Models */,
+				EF6D24941E15A00700BFDB86 /* Delegates */,
+				EF6D24931E159FEF00BFDB86 /* Controllers */,
+				EF13592B1E1535B200DC6B66 /* Helpers */,
+				EF1359281E145F9C00DC6B66 /* Mocks */,
+				EF00191C1E1441BC0082CA7D /* Info.plist */,
+				EF18B40B1E16862600BA897B /* FiristSpec.swift */,
+			);
+			path = AppetitTests;
+			sourceTree = "<group>";
+		};
+		EF0019221E1445B00082CA7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF0019231E1445F00082CA7D /* Item.swift */,
+				97EFF2A31E30742400CA2F83 /* ThumbImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF0019251E1446D10082CA7D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EF2CA8501E142FC600D87C60 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EF0019261E1446D80082CA7D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EF0019271E14470E0082CA7D /* AppetitAPI.swift */,
+				EF1359261E145A6800DC6B66 /* AppetitAPIManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EF0019291E144B270082CA7D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF00192E1E144B6F0082CA7D /* Xibs */,
+				EF00192A1E144B3E0082CA7D /* ItemCollectionCell.swift */,
+				EF00192C1E144B6A0082CA7D /* ItemCollectionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF00192E1E144B6F0082CA7D /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		EF1359231E1451C400DC6B66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF13592E1E153AC400DC6B66 /* ItemViewController.swift */,
+				EF1359241E1451DB00DC6B66 /* ItemsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF1359281E145F9C00DC6B66 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1359291E14600000DC6B66 /* items.json */,
+				EFAC50E21E16D8F600BA8B7D /* item.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		EF13592B1E1535B200DC6B66 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EF13592C1E1535D700DC6B66 /* MockLoader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EF1359301E15863600DC6B66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF2CA8571E142FC600D87C60 /* Assets.xcassets */,
+				EF2CA85C1E142FC600D87C60 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF1359311E15864200DC6B66 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF2CA8591E142FC600D87C60 /* LaunchScreen.storyboard */,
+				EF2CA8541E142FC600D87C60 /* Main.storyboard */,
+				EF1359321E15869800DC6B66 /* Storyboard.swift */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF18B40D1E1689E900BA897B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF18B40E1E1689FD00BA897B /* ItemSpec.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EF2CA8441E142FC600D87C60 = {
+			isa = PBXGroup;
+			children = (
+				EF2CA84F1E142FC600D87C60 /* Appetit */,
+				EF0019191E1441BC0082CA7D /* AppetitTests */,
+				79F2C038F3FE85436EBC0B24 /* Frameworks */,
+				71409FE13BCC57EE8785BD64 /* Pods */,
+				EF2CA84E1E142FC600D87C60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2CA84E1E142FC600D87C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2CA84D1E142FC600D87C60 /* Appetit.app */,
+				EF0019181E1441BC0082CA7D /* AppetitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2CA84F1E142FC600D87C60 /* Appetit */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF29B1E2DCCFD00CA2F83 /* Extensions */,
+				97EFF2921E2DB8CB00CA2F83 /* Screens */,
+				97EFF28F1E2DB59200CA2F83 /* Transitions */,
+				EF6D24971E15AE7E00BFDB86 /* Apperance */,
+				EF0019251E1446D10082CA7D /* AppDelegate */,
+				EF0019291E144B270082CA7D /* Cells */,
+				EF1359231E1451C400DC6B66 /* Controllers */,
+				EF2CA8621E14302B00D87C60 /* Datasources */,
+				EF0019221E1445B00082CA7D /* Models */,
+				EF0019261E1446D80082CA7D /* Networking */,
+				EF1359301E15863600DC6B66 /* Resources */,
+				97EFF2841E2DA2FF00CA2F83 /* View */,
+				EF1359311E15864200DC6B66 /* Storyboards */,
+				97EFF2991E2DC48E00CA2F83 /* AppCoordinate.swift */,
+				97EFF2A51E30757100CA2F83 /* UIImage+Kingfisher.swift */,
+			);
+			path = Appetit;
+			sourceTree = "<group>";
+		};
+		EF2CA8621E14302B00D87C60 /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				EF0019311E144E3F0082CA7D /* ItemCollectionDataSource.swift */,
+				EF00192F1E144C660082CA7D /* ItemsCollectionViewDataSource.swift */,
+			);
+			path = Datasources;
+			sourceTree = "<group>";
+		};
+		EF6D24931E159FEF00BFDB86 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF18B4101E16982F00BA897B /* ItemsViewControllerSpec.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF6D24941E15A00700BFDB86 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EF6D24951E15A02600BFDB86 /* ItemsDelegateSpec.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		EF6D24971E15AE7E00BFDB86 /* Apperance */ = {
+			isa = PBXGroup;
+			children = (
+				EF6D24981E15AEA300BFDB86 /* ApperanceHelper.swift */,
+				EF6D249A1E15AF2200BFDB86 /* ColorPalette.swift */,
+			);
+			name = Apperance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0019171E1441BC0082CA7D /* AppetitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF00191F1E1441BC0082CA7D /* Build configuration list for PBXNativeTarget "AppetitTests" */;
+			buildPhases = (
+				915693B279EA4E33630A8D9E /* [CP] Check Pods Manifest.lock */,
+				EF0019141E1441BC0082CA7D /* Sources */,
+				EF0019151E1441BC0082CA7D /* Frameworks */,
+				EF0019161E1441BC0082CA7D /* Resources */,
+				BBEB9D7C500F046952717976 /* [CP] Embed Pods Frameworks */,
+				0E5CCF7FD89BBC58ABCC7871 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF00191E1E1441BC0082CA7D /* PBXTargetDependency */,
+			);
+			name = AppetitTests;
+			productName = AppetiTests;
+			productReference = EF0019181E1441BC0082CA7D /* AppetitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF2CA84C1E142FC600D87C60 /* Appetit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2CA85F1E142FC600D87C60 /* Build configuration list for PBXNativeTarget "Appetit" */;
+			buildPhases = (
+				C53901B54C3E2736ACDBFA24 /* [CP] Check Pods Manifest.lock */,
+				EF2CA8491E142FC600D87C60 /* Sources */,
+				EF2CA84A1E142FC600D87C60 /* Frameworks */,
+				EF2CA84B1E142FC600D87C60 /* Resources */,
+				DF233F500F76DCFA65A5C816 /* [CP] Embed Pods Frameworks */,
+				5661412F3F371D53DFE0A809 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Appetit;
+			productName = AppTestes;
+			productReference = EF2CA84D1E142FC600D87C60 /* Appetit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2CA8451E142FC600D87C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Douglas Taquary";
+				TargetAttributes = {
+					EF0019171E1441BC0082CA7D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Z46LY5F22G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF2CA84C1E142FC600D87C60;
+					};
+					EF2CA84C1E142FC600D87C60 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Z46LY5F22G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF2CA8481E142FC600D87C60 /* Build configuration list for PBXProject "Appetit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2CA8441E142FC600D87C60;
+			productRefGroup = EF2CA84E1E142FC600D87C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2CA84C1E142FC600D87C60 /* Appetit */,
+				EF0019171E1441BC0082CA7D /* AppetitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0019161E1441BC0082CA7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAC50E31E16D8F600BA8B7D /* item.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2CA84B1E142FC600D87C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2CA85B1E142FC600D87C60 /* LaunchScreen.storyboard in Resources */,
+				EF2CA8581E142FC600D87C60 /* Assets.xcassets in Resources */,
+				EF13592A1E14600000DC6B66 /* items.json in Resources */,
+				EF00192D1E144B6A0082CA7D /* ItemCollectionCell.xib in Resources */,
+				EF2CA8561E142FC600D87C60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5CCF7FD89BBC58ABCC7871 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppetitTests/Pods-AppetitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5661412F3F371D53DFE0A809 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Appetit/Pods-Appetit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		915693B279EA4E33630A8D9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEB9D7C500F046952717976 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppetitTests/Pods-AppetitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53901B54C3E2736ACDBFA24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF233F500F76DCFA65A5C816 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Appetit/Pods-Appetit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0019141E1441BC0082CA7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18B4111E16982F00BA897B /* ItemsViewControllerSpec.swift in Sources */,
+				EF6D24961E15A02600BFDB86 /* ItemsDelegateSpec.swift in Sources */,
+				EF18B40C1E16862600BA897B /* FiristSpec.swift in Sources */,
+				EF18B40F1E1689FD00BA897B /* ItemSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2CA8491E142FC600D87C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF13592F1E153AC400DC6B66 /* ItemViewController.swift in Sources */,
+				EF1359331E15869800DC6B66 /* Storyboard.swift in Sources */,
+				97EFF2961E2DC11E00CA2F83 /* ListOrders.swift in Sources */,
+				97EFF2A21E2F0B7200CA2F83 /* ListOrderViewModel.swift in Sources */,
+				97EFF2881E2DA38B00CA2F83 /* GradientView.swift in Sources */,
+				EF0019321E144E3F0082CA7D /* ItemCollectionDataSource.swift in Sources */,
+				97EFF2A41E30742400CA2F83 /* ThumbImage.swift in Sources */,
+				97EFF29D1E2DCD0C00CA2F83 /* UIImage+WithColor.swift in Sources */,
+				EF0019301E144C660082CA7D /* ItemsCollectionViewDataSource.swift in Sources */,
+				EF1359271E145A6800DC6B66 /* AppetitAPIManager.swift in Sources */,
+				EF0019281E14470E0082CA7D /* AppetitAPI.swift in Sources */,
+				97EFF28A1E2DA3BC00CA2F83 /* Style.swift in Sources */,
+				97EFF28C1E2DA66100CA2F83 /* TintButton.swift in Sources */,
+				EF00192B1E144B3E0082CA7D /* ItemCollectionCell.swift in Sources */,
+				EF13592D1E1535D700DC6B66 /* MockLoader.swift in Sources */,
+				97EFF2911E2DB5BB00CA2F83 /* ModalTransition.swift in Sources */,
+				97EFF29A1E2DC48E00CA2F83 /* AppCoordinate.swift in Sources */,
+				97EFF2A01E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift in Sources */,
+				EF1359251E1451DB00DC6B66 /* ItemsViewController.swift in Sources */,
+				97EFF2A61E30757100CA2F83 /* UIImage+Kingfisher.swift in Sources */,
+				EF6D249B1E15AF2200BFDB86 /* ColorPalette.swift in Sources */,
+				EF0019241E1445F00082CA7D /* Item.swift in Sources */,
+				EF2CA8511E142FC600D87C60 /* AppDelegate.swift in Sources */,
+				EF6D24991E15AEA400BFDB86 /* ApperanceHelper.swift in Sources */,
+				97EFF2981E2DC38600CA2F83 /* ListOrdersViewController.swift in Sources */,
+				97EFF28E1E2DB2DE00CA2F83 /* TextDescriptionView.swift in Sources */,
+				97EFF2861E2DA35200CA2F83 /* ClearButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF00191E1E1441BC0082CA7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2CA84C1E142FC600D87C60 /* Appetit */;
+			targetProxy = EF00191D1E1441BC0082CA7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF2CA8541E142FC600D87C60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2CA8551E142FC600D87C60 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		EF2CA8591E142FC600D87C60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2CA85A1E142FC600D87C60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0019201E1441BC0082CA7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F984F3ED2EB6B4F7624FA24E /* Pods-AppetitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z46LY5F22G;
+				INFOPLIST_FILE = AppetitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglastaquary.ios.testes.AppetiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appetit.app/Appetit";
+			};
+			name = Debug;
+		};
+		EF0019211E1441BC0082CA7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D8992514F34471C5F5E64E /* Pods-AppetitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z46LY5F22G;
+				INFOPLIST_FILE = AppetitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglastaquary.ios.testes.AppetiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appetit.app/Appetit";
+			};
+			name = Release;
+		};
+		EF2CA85D1E142FC600D87C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2CA85E1E142FC600D87C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2CA8601E142FC600D87C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756FA66D17739C41BF4845EA /* Pods-Appetit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z46LY5F22G;
+				INFOPLIST_FILE = Appetit/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglastaquary.ios.testes.AppTestes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF2CA8611E142FC600D87C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463A930AFD5FE4DFA88005A4 /* Pods-Appetit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z46LY5F22G;
+				INFOPLIST_FILE = Appetit/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.douglastaquary.ios.testes.AppTestes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF00191F1E1441BC0082CA7D /* Build configuration list for PBXNativeTarget "AppetitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0019201E1441BC0082CA7D /* Debug */,
+				EF0019211E1441BC0082CA7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2CA8481E142FC600D87C60 /* Build configuration list for PBXProject "Appetit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2CA85D1E142FC600D87C60 /* Debug */,
+				EF2CA85E1E142FC600D87C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2CA85F1E142FC600D87C60 /* Build configuration list for PBXNativeTarget "Appetit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2CA8601E142FC600D87C60 /* Debug */,
+				EF2CA8611E142FC600D87C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2CA8451E142FC600D87C60 /* Project object */;
+}

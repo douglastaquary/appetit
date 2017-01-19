@@ -1,0 +1,426 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StoryboardSceneType"
+- "StoryboardSegueType"
+- "Storyboard"
+provides-nominal:
+- "P7Appetit19StoryboardSceneType"
+- "P7Appetit19StoryboardSegueType"
+- "V7Appetit10Storyboard"
+- "OV7Appetit10Storyboard12LaunchScreen"
+- "OV7Appetit10Storyboard4Main"
+provides-member:
+- ["P7Appetit19StoryboardSceneType", ""]
+- ["P7Appetit19StoryboardSegueType", ""]
+- ["CSo16UIViewController", ""]
+- ["V7Appetit10Storyboard", ""]
+- ["OV7Appetit10Storyboard12LaunchScreen", ""]
+- ["OV7Appetit10Storyboard4Main", ""]
+- ["P7Appetit19StoryboardSceneType", "storyboard"]
+- ["P7Appetit19StoryboardSceneType", "initialViewController"]
+- ["P7Appetit19StoryboardSceneType", "viewController"]
+- ["P7Appetit19StoryboardSceneType", "viewController"]
+- ["CSo16UIViewController", "performSegue"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "=="
+- !private "~="
+- "UINavigationController"
+- "ItemsViewController"
+- !private "fatalError"
+- "StoryboardSegueType"
+- "String"
+- "UIStoryboard"
+- "ItemViewController"
+- "AnyObject"
+- "StringLiteralType"
+- "Storyboard"
+- "RawRepresentable"
+- "StoryboardSceneType"
+- "UIViewController"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateInitialViewController"]
+- !private ["Ps9AnyObject", "instantiateViewController"]
+- ["Ps9AnyObject", "performSegue"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateInitialViewController"]
+- !private ["Ps7CVarArg", "instantiateViewController"]
+- ["Ps7CVarArg", "performSegue"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateInitialViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
+- ["Ps28CustomDebugStringConvertible", "performSegue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateInitialViewController"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewController"]
+- ["Ps23CustomStringConvertible", "performSegue"]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Storyboard"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateInitialViewController"]
+- !private ["Ps9Equatable", "instantiateViewController"]
+- !private ["Ps9Equatable", "itemViewControllerScene"]
+- !private ["Ps9Equatable", "itemsViewControllerScene"]
+- ["Ps9Equatable", "performSegue"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "storyboard"]
+- ["Ps9Equatable", "storyboardName"]
+- !private ["Ps9Equatable", "viewController"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Storyboard"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateInitialViewController"]
+- !private ["Ps8Hashable", "instantiateViewController"]
+- !private ["Ps8Hashable", "itemViewControllerScene"]
+- !private ["Ps8Hashable", "itemsViewControllerScene"]
+- ["Ps8Hashable", "performSegue"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "storyboard"]
+- ["Ps8Hashable", "storyboardName"]
+- !private ["Ps8Hashable", "viewController"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["C7Appetit18ItemViewController", "deinit"]
+- ["C7Appetit19ItemsViewController", "deinit"]
+- ["OV7Appetit10Storyboard12LaunchScreen", "deinit"]
+- ["OV7Appetit10Storyboard12LaunchScreen", "storyboardName"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["OV7Appetit10Storyboard4Main", "ItemViewController"]
+- ["OV7Appetit10Storyboard4Main", "ItemsViewController"]
+- ["OV7Appetit10Storyboard4Main", "RawValue"]
+- !private ["OV7Appetit10Storyboard4Main", "Storyboard"]
+- ["OV7Appetit10Storyboard4Main", "UINavigationController"]
+- ["OV7Appetit10Storyboard4Main", "_toAnyHashable"]
+- ["OV7Appetit10Storyboard4Main", "deinit"]
+- !private ["OV7Appetit10Storyboard4Main", "fatalError"]
+- ["OV7Appetit10Storyboard4Main", "hashValue"]
+- ["OV7Appetit10Storyboard4Main", "init"]
+- ["OV7Appetit10Storyboard4Main", "initialViewController"]
+- ["OV7Appetit10Storyboard4Main", "instantiateCharacterViewController"]
+- ["OV7Appetit10Storyboard4Main", "instantiateCharactersViewController"]
+- ["OV7Appetit10Storyboard4Main", "itemViewControllerScene"]
+- ["OV7Appetit10Storyboard4Main", "itemsViewControllerScene"]
+- ["OV7Appetit10Storyboard4Main", "rawValue"]
+- !private ["OV7Appetit10Storyboard4Main", "storyboard"]
+- ["OV7Appetit10Storyboard4Main", "storyboardName"]
+- !private ["OV7Appetit10Storyboard4Main", "viewController"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "performSegue"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "StoryboardSegueType"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateInitialViewController"]
+- !private ["CSo8NSObject", "instantiateViewController"]
+- ["CSo8NSObject", "performSegue"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateInitialViewController"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewController"]
+- ["PSo16NSObjectProtocol", "performSegue"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "Self"]
+- !private ["Ps16RawRepresentable", "Storyboard"]
+- ["Ps16RawRepresentable", "UIViewController"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "fatalError"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "itemViewControllerScene"]
+- !private ["Ps16RawRepresentable", "itemsViewControllerScene"]
+- ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "storyboard"]
+- ["Ps16RawRepresentable", "storyboardName"]
+- !private ["Ps16RawRepresentable", "viewController"]
+- ["Ps16RawRepresentable", ""]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "instantiateInitialViewController"]
+- !private ["P7RxSwift18ReactiveCompatible", "instantiateViewController"]
+- ["P7RxSwift18ReactiveCompatible", "performSegue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["V7Appetit10Storyboard", "ItemViewController"]
+- ["V7Appetit10Storyboard", "ItemsViewController"]
+- ["V7Appetit10Storyboard", "LaunchScreen"]
+- ["V7Appetit10Storyboard", "Main"]
+- !private ["V7Appetit10Storyboard", "Storyboard"]
+- ["V7Appetit10Storyboard", "StoryboardSceneType"]
+- ["V7Appetit10Storyboard", "String"]
+- ["V7Appetit10Storyboard", "UINavigationController"]
+- !private ["V7Appetit10Storyboard", "fatalError"]
+- ["V7Appetit10Storyboard", "init"]
+- ["P7Appetit19StoryboardSceneType", "RawRepresentable"]
+- ["P7Appetit19StoryboardSceneType", "RawValue"]
+- ["P7Appetit19StoryboardSceneType", "Self"]
+- !private ["P7Appetit19StoryboardSceneType", "Storyboard"]
+- ["P7Appetit19StoryboardSceneType", "String"]
+- ["P7Appetit19StoryboardSceneType", "UIStoryboard"]
+- ["P7Appetit19StoryboardSceneType", "UIViewController"]
+- ["P7Appetit19StoryboardSceneType", "_toAnyHashable"]
+- !private ["P7Appetit19StoryboardSceneType", "fatalError"]
+- ["P7Appetit19StoryboardSceneType", "hashValue"]
+- ["P7Appetit19StoryboardSceneType", "init"]
+- ["P7Appetit19StoryboardSceneType", "initialViewController"]
+- !private ["P7Appetit19StoryboardSceneType", "itemViewControllerScene"]
+- !private ["P7Appetit19StoryboardSceneType", "itemsViewControllerScene"]
+- ["P7Appetit19StoryboardSceneType", "rawValue"]
+- ["P7Appetit19StoryboardSceneType", "storyboard"]
+- ["P7Appetit19StoryboardSceneType", "storyboardName"]
+- ["P7Appetit19StoryboardSceneType", "viewController"]
+- ["P7Appetit19StoryboardSceneType", ""]
+- !private ["P7Appetit19StoryboardSegueType", "RawValue"]
+- !private ["P7Appetit19StoryboardSegueType", "rawValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- ["CSo22UINavigationController", "deinit"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "StoryboardSegueType"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "performSegue"]
+- ["PSo30UIResponderStandardEditActions", "performSegue"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- ["CSo12UIStoryboard", "deinit"]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateInitialViewController"]
+- !private ["CSo12UIStoryboard", "instantiateViewController"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "StoryboardSegueType"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "performSegue"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["P9Alamofire14URLConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "Storyboard"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateInitialViewController"]
+- !private ["Ps9_Hashable", "instantiateViewController"]
+- !private ["Ps9_Hashable", "itemViewControllerScene"]
+- !private ["Ps9_Hashable", "itemsViewControllerScene"]
+- ["Ps9_Hashable", "performSegue"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "storyboard"]
+- ["Ps9_Hashable", "storyboardName"]
+- !private ["Ps9_Hashable", "viewController"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Vs11ClosedRange"
+- "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "C7Appetit18ItemViewController"
+- "C7Appetit19ItemsViewController"
+- "OV7Appetit10Storyboard12LaunchScreen"
+- "Ps25LosslessStringConvertible"
+- "OV7Appetit10Storyboard4Main"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- "P7RxSwift18ReactiveCompatible"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "Vs12StaticString"
+- "V7Appetit10Storyboard"
+- "P7Appetit19StoryboardSceneType"
+- !private "P7Appetit19StoryboardSegueType"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- "CSo12UIStoryboard"
+- !private "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "P9Alamofire14URLConvertible"
+- !private "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/Reusable.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+interface-hash: "ee6e2836a9636c7a08a33a52f4d05424"

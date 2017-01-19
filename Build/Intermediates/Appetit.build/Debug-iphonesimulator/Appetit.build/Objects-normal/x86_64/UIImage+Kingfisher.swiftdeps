@@ -1,0 +1,228 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo11UIImageView", ""]
+- ["CSo11UIImageView", "download"]
+provides-dynamic-lookup:
+- "download"
+depends-top-level:
+- "UIImageView"
+- "String"
+- !private "ImageResource"
+- !private "URL"
+depends-member:
+- !private ["Ps9AnyObject", "ImageResource"]
+- !private ["Ps9AnyObject", "URL"]
+- ["Ps9AnyObject", "download"]
+- !private ["Ps9AnyObject", "kf"]
+- !private ["Ps9AnyObject", "setImage"]
+- !private ["PSo15CALayerDelegate", "ImageResource"]
+- !private ["PSo15CALayerDelegate", "URL"]
+- ["PSo15CALayerDelegate", "download"]
+- !private ["PSo15CALayerDelegate", "kf"]
+- !private ["Ps7CVarArg", "ImageResource"]
+- !private ["Ps7CVarArg", "URL"]
+- ["Ps7CVarArg", "download"]
+- !private ["Ps7CVarArg", "kf"]
+- !private ["Ps28CustomDebugStringConvertible", "ImageResource"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- ["Ps28CustomDebugStringConvertible", "download"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kf"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps23CustomStringConvertible", "ImageResource"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- ["Ps23CustomStringConvertible", "download"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kf"]
+- !private ["Ps9Equatable", "ImageResource"]
+- !private ["Ps9Equatable", "URL"]
+- ["Ps9Equatable", "download"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kf"]
+- !private ["Ps8Hashable", "ImageResource"]
+- !private ["Ps8Hashable", "URL"]
+- ["Ps8Hashable", "download"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kf"]
+- ["V10Kingfisher13ImageResource", "deinit"]
+- !private ["V10Kingfisher13ImageResource", "init"]
+- ["C10Kingfisher10Kingfisher", "deinit"]
+- !private ["C10Kingfisher10Kingfisher", "setImage"]
+- !private ["P10Kingfisher20KingfisherCompatible", "ImageResource"]
+- !private ["P10Kingfisher20KingfisherCompatible", "URL"]
+- !private ["P10Kingfisher20KingfisherCompatible", "kf"]
+- !private ["PSo8NSCoding", "ImageResource"]
+- !private ["PSo8NSCoding", "URL"]
+- ["PSo8NSCoding", "download"]
+- !private ["PSo8NSCoding", "kf"]
+- !private ["CSo8NSObject", "ImageResource"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "download"]
+- !private ["CSo8NSObject", "kf"]
+- !private ["PSo16NSObjectProtocol", "ImageResource"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- ["PSo16NSObjectProtocol", "download"]
+- !private ["PSo16NSObjectProtocol", "kf"]
+- ["Sq", "deinit"]
+- !private ["P7RxSwift18ReactiveCompatible", "ImageResource"]
+- !private ["P7RxSwift18ReactiveCompatible", "URL"]
+- ["P7RxSwift18ReactiveCompatible", "download"]
+- !private ["P7RxSwift18ReactiveCompatible", "kf"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Kingfisher8Resource", "init"]
+- ["C10Kingfisher17RetrieveImageTask", "deinit"]
+- ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "ImageResource"]
+- !private ["PSo29UIAccessibilityIdentification", "URL"]
+- ["PSo29UIAccessibilityIdentification", "download"]
+- !private ["PSo29UIAccessibilityIdentification", "kf"]
+- !private ["PSo12UIAppearance", "ImageResource"]
+- !private ["PSo12UIAppearance", "URL"]
+- ["PSo12UIAppearance", "download"]
+- !private ["PSo12UIAppearance", "kf"]
+- !private ["PSo21UIAppearanceContainer", "ImageResource"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- ["PSo21UIAppearanceContainer", "download"]
+- !private ["PSo21UIAppearanceContainer", "kf"]
+- !private ["PSo17UICoordinateSpace", "ImageResource"]
+- !private ["PSo17UICoordinateSpace", "URL"]
+- ["PSo17UICoordinateSpace", "download"]
+- !private ["PSo17UICoordinateSpace", "kf"]
+- !private ["PSo13UIDynamicItem", "ImageResource"]
+- !private ["PSo13UIDynamicItem", "URL"]
+- ["PSo13UIDynamicItem", "download"]
+- !private ["PSo13UIDynamicItem", "kf"]
+- !private ["PSo18UIFocusEnvironment", "ImageResource"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- ["PSo18UIFocusEnvironment", "download"]
+- !private ["PSo18UIFocusEnvironment", "kf"]
+- !private ["PSo11UIFocusItem", "ImageResource"]
+- !private ["PSo11UIFocusItem", "URL"]
+- ["PSo11UIFocusItem", "download"]
+- !private ["PSo11UIFocusItem", "kf"]
+- !private ["CSo11UIImageView", "ImageResource"]
+- ["CSo11UIImageView", "String"]
+- !private ["CSo11UIImageView", "URL"]
+- ["CSo11UIImageView", "deinit"]
+- ["CSo11UIImageView", "download"]
+- !private ["CSo11UIImageView", "kf"]
+- !private ["CSo11UIResponder", "ImageResource"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "URL"]
+- ["CSo11UIResponder", "download"]
+- !private ["CSo11UIResponder", "kf"]
+- !private ["PSo30UIResponderStandardEditActions", "ImageResource"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- ["PSo30UIResponderStandardEditActions", "download"]
+- !private ["PSo30UIResponderStandardEditActions", "kf"]
+- !private ["PSo18UITraitEnvironment", "ImageResource"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- ["PSo18UITraitEnvironment", "download"]
+- !private ["PSo18UITraitEnvironment", "kf"]
+- !private ["CSo6UIView", "ImageResource"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "URL"]
+- ["CSo6UIView", "download"]
+- !private ["CSo6UIView", "kf"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "ImageResource"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "URL"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "download"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "kf"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps9_Hashable", "ImageResource"]
+- !private ["Ps9_Hashable", "URL"]
+- ["Ps9_Hashable", "download"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kf"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "V10Kingfisher13ImageResource"
+- "C10Kingfisher10Kingfisher"
+- !private "P10Kingfisher20KingfisherCompatible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "P10Kingfisher8Resource"
+- "C10Kingfisher17RetrieveImageTask"
+- "SS"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "V10Foundation3URL"
+- !private "P9Alamofire14URLConvertible"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/Reusable.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+interface-hash: "240c3961e67db3f20f5efb7edc28d29f"

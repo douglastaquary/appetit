@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "bafbd2e8fab47bdaa30800a305c4a107"
+build_time: [538026518, 411050000]
+inputs:
+  "/iOS Projects/Github repositories/appetit/Pods/Moya-ObjectMapper/Source/RxSwift/Observable+ObjectMapper.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Moya-ObjectMapper/Source/Response+ObjectMapper.swift": [537928306, 0]

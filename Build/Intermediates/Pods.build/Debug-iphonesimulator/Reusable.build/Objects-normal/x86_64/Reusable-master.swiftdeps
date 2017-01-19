@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "43e7fae16bc1b9ca11e25708dcbedeec"
+build_time: [538026509, 769837000]
+inputs:
+  "/iOS Projects/Github repositories/appetit/Pods/Reusable/Sources/View/NibLoadable.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Reusable/Sources/View/NibOwnerLoadable.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Reusable/Sources/View/Reusable.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Reusable/Sources/Storyboard/StoryboardBased.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Reusable/Sources/Storyboard/StoryboardSceneBased.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Reusable/Sources/View/UICollectionView+Reusable.swift": [537928306, 0]
+  "/iOS Projects/Github repositories/appetit/Pods/Reusable/Sources/View/UITableView+Reusable.swift": [537928306, 0]

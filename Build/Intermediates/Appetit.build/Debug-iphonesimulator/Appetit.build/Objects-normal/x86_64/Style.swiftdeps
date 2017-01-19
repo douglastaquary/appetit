@@ -1,0 +1,182 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StyleProvider"
+- "Style"
+provides-nominal:
+- "P7Appetit13StyleProvider"
+- "V7Appetit5Style"
+provides-member:
+- ["P7Appetit13StyleProvider", ""]
+- ["V7Appetit5Style", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "StyleProvider"
+- "Style"
+- "UIFontWeightHeavy"
+- "UIFontWeightSemibold"
+- "CGFloat"
+- "UIFontWeightBold"
+- "/"
+- "UIColor"
+- "UIFontWeightMedium"
+- "TimeInterval"
+- "UIFont"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "systemFont"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "systemFont"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "systemFont"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "systemFont"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "systemFont"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "systemFont"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "systemFont"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "systemFont"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "systemFont"]
+- ["PSo14NSSecureCoding", "init"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- ["P7RxSwift18ReactiveCompatible", "systemFont"]
+- ["V7Appetit5Style", "CGFloat"]
+- ["V7Appetit5Style", "Style"]
+- ["V7Appetit5Style", "TimeInterval"]
+- ["V7Appetit5Style", "UIColor"]
+- ["V7Appetit5Style", "UIFont"]
+- ["V7Appetit5Style", "UIFontWeightBold"]
+- ["V7Appetit5Style", "UIFontWeightHeavy"]
+- ["V7Appetit5Style", "UIFontWeightMedium"]
+- ["V7Appetit5Style", "UIFontWeightSemibold"]
+- ["V7Appetit5Style", "animationDuration"]
+- ["V7Appetit5Style", "backgroundColor"]
+- ["V7Appetit5Style", "black"]
+- ["V7Appetit5Style", "body"]
+- ["V7Appetit5Style", "callout"]
+- ["V7Appetit5Style", "deinit"]
+- ["V7Appetit5Style", "footnote"]
+- ["V7Appetit5Style", "gray"]
+- ["V7Appetit5Style", "grid"]
+- ["V7Appetit5Style", "init"]
+- ["V7Appetit5Style", "lightGray"]
+- ["V7Appetit5Style", "orange"]
+- ["V7Appetit5Style", "separatorColor"]
+- ["V7Appetit5Style", "shadowColor"]
+- ["V7Appetit5Style", "subhead"]
+- ["V7Appetit5Style", "textColor"]
+- ["V7Appetit5Style", "textInTintColor"]
+- ["V7Appetit5Style", "textLightColor"]
+- ["V7Appetit5Style", "tintColor"]
+- ["V7Appetit5Style", "title1"]
+- ["V7Appetit5Style", "title2"]
+- ["V7Appetit5Style", "title3"]
+- ["V7Appetit5Style", "transparentBlack"]
+- ["V7Appetit5Style", "white"]
+- ["P7Appetit13StyleProvider", "CGFloat"]
+- ["P7Appetit13StyleProvider", "Style"]
+- ["P7Appetit13StyleProvider", "TimeInterval"]
+- ["P7Appetit13StyleProvider", "UIColor"]
+- ["P7Appetit13StyleProvider", "UIFont"]
+- ["P7Appetit13StyleProvider", "UIFontWeightBold"]
+- ["P7Appetit13StyleProvider", "UIFontWeightHeavy"]
+- ["P7Appetit13StyleProvider", "UIFontWeightMedium"]
+- ["P7Appetit13StyleProvider", "UIFontWeightSemibold"]
+- ["P7Appetit13StyleProvider", "animationDuration"]
+- ["P7Appetit13StyleProvider", "backgroundColor"]
+- ["P7Appetit13StyleProvider", "black"]
+- ["P7Appetit13StyleProvider", "body"]
+- ["P7Appetit13StyleProvider", "callout"]
+- ["P7Appetit13StyleProvider", "footnote"]
+- ["P7Appetit13StyleProvider", "gray"]
+- ["P7Appetit13StyleProvider", "grid"]
+- ["P7Appetit13StyleProvider", "lightGray"]
+- ["P7Appetit13StyleProvider", "orange"]
+- ["P7Appetit13StyleProvider", "separatorColor"]
+- ["P7Appetit13StyleProvider", "shadowColor"]
+- ["P7Appetit13StyleProvider", "subhead"]
+- ["P7Appetit13StyleProvider", "textColor"]
+- ["P7Appetit13StyleProvider", "textInTintColor"]
+- ["P7Appetit13StyleProvider", "textLightColor"]
+- ["P7Appetit13StyleProvider", "tintColor"]
+- ["P7Appetit13StyleProvider", "title1"]
+- ["P7Appetit13StyleProvider", "title2"]
+- ["P7Appetit13StyleProvider", "title3"]
+- ["P7Appetit13StyleProvider", "transparentBlack"]
+- ["P7Appetit13StyleProvider", "white"]
+- ["P7Appetit13StyleProvider", ""]
+- ["CSo7UIColor", "deinit"]
+- ["CSo7UIColor", "init"]
+- ["CSo6UIFont", "deinit"]
+- ["CSo6UIFont", "systemFont"]
+- ["Ps26_ExpressibleByColorLiteral", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "systemFont"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "P7RxSwift18ReactiveCompatible"
+- "V7Appetit5Style"
+- "P7Appetit13StyleProvider"
+- "CSo7UIColor"
+- "CSo6UIFont"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/Reusable.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+interface-hash: "51e4bf830bc6aa96431b8f2be79defc6"

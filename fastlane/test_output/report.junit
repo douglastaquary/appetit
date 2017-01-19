@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='AppetitTests.xctest' tests='2' failures='0'>
+  <testsuite name='AppetitTests.FiristSpec' tests='1' failures='0'>
+    <testcase classname='AppetitTests.FiristSpec' name='Firist_Simple_Spec__should_be_true' time='0.005'/>
+  </testsuite>
+  <testsuite name='AppetitTests.ItemSpec' tests='1' failures='0'>
+    <testcase classname='AppetitTests.ItemSpec' name='a_item__should_be_able_to_create_a_Item_from_json' time='0.003'/>
+  </testsuite>
+</testsuites>
