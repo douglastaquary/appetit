@@ -16,7 +16,7 @@
 ## Appetit Screens
 
 <h3 align="center">
-  <img src="assets/appetit_screenshots.png" alt="Appetit Screens" />
+  <img src="Assets/appetit_screenshots.png" alt="Appetit Screens" />
 </h3>
 
 ## Motivação
