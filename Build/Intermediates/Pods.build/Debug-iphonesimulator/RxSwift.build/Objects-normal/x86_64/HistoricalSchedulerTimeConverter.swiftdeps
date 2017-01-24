@@ -8,12 +8,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "CastingPrecedence"
-- !private "Date"
-- "RxTimeInterval"
-- "RxTime"
 - "HistoricalSchedulerTimeConverter"
 - "VirtualTimeConverterType"
+- "RxTimeInterval"
 - "VirtualTimeComparison"
+- "RxTime"
+- !private "Date"
 depends-member:
 - !private ["Ps10Comparable", "addingTimeInterval"]
 - !private ["Ps10Comparable", "compare"]

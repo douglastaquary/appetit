@@ -10,20 +10,20 @@ provides-member:
 - ["C7RxSwift27RecursiveImmediateScheduler", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AnyRecursiveScheduler"
 - "AssignmentPrecedence"
-- "NSRecursiveLock"
 - "RxTimeInterval"
-- "RecursiveImmediateScheduler"
 - "SpinLock"
-- !private "Disposables"
-- "ImmediateSchedulerType"
-- !private "Disposable"
-- !private "!"
+- "AnyRecursiveScheduler"
+- "NSRecursiveLock"
+- "SchedulerType"
 - "CompositeDisposable"
 - "Void"
+- "RecursiveImmediateScheduler"
 - !private "BooleanLiteralType"
-- "SchedulerType"
+- !private "!"
+- "ImmediateSchedulerType"
+- !private "Disposables"
+- !private "Disposable"
 depends-member:
 - ["Ps9AnyObject", "CompositeDisposable"]
 - !private ["Ps9AnyObject", "Disposables"]

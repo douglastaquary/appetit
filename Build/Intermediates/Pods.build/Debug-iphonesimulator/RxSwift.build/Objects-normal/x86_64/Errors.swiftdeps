@@ -11,13 +11,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "RxError"
-- "String"
-- "RxCompositeFailures"
-- "AnyObject"
-- "RxErrorDomain"
-- "StringLiteralType"
 - "CustomDebugStringConvertible"
+- "StringLiteralType"
+- "AnyObject"
 - "Swift"
+- "RxCompositeFailures"
+- "String"
+- "RxErrorDomain"
 depends-member:
 - ["Ps9AnyObject", "deinit"]
 - ["Ps9AnyObject", "init"]

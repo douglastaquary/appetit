@@ -8,17 +8,17 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "Void"
+- "SecureBytes"
+- "ExpressibleByArrayLiteral"
+- !private "mlock"
 - "AssignmentPrecedence"
 - "Collection"
+- "Range"
+- "Int"
 - "ArraySlice"
 - "Array"
 - "UInt8"
-- "Int"
-- !private "mlock"
-- "Range"
-- "ExpressibleByArrayLiteral"
 - !private "munlock"
-- "SecureBytes"
 depends-member:
 - ["Ps9AnyObject", "Element"]
 - ["Ps9AnyObject", "Index"]

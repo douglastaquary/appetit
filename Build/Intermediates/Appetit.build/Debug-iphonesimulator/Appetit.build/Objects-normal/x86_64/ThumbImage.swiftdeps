@@ -7,12 +7,12 @@ provides-member:
 - ["V7Appetit10ThumbImage", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "Map"
-- "Mappable"
 - !private "<-"
-- "StringLiteralType"
+- "Mappable"
+- "String"
 - "ThumbImage"
+- "Map"
+- "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "subscript"]
@@ -41,6 +41,7 @@ depends-member:
 - !private ["Vs5Int32", "deinit"]
 - !private ["Vs5Int64", "deinit"]
 - !private ["Vs4Int8", "deinit"]
+- ["P10Kingfisher20KingfisherCompatible", "init"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["C12ObjectMapper3Map", "deinit"]
 - !private ["C12ObjectMapper3Map", "subscript"]
@@ -106,6 +107,7 @@ depends-nominal:
 - !private "Vs5Int32"
 - !private "Vs5Int64"
 - !private "Vs4Int8"
+- "P10Kingfisher20KingfisherCompatible"
 - "Ps25LosslessStringConvertible"
 - "C12ObjectMapper3Map"
 - "P12ObjectMapper8Mappable"
@@ -176,4 +178,9 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "bfcf09abb00ded3f4bf020e5e970abaa"

@@ -7,18 +7,18 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
-- !private "DisposeBase"
-- "FloatLiteralType"
-- "Disposable"
-- "IntegerLiteralType"
-- !private "AtomicCompareAndSwap"
-- "Cancelable"
-- "Bool"
-- !private "BinaryDisposable"
-- !private ">"
 - "Disposables"
-- !private "StringLiteralType"
+- "Cancelable"
+- "FloatLiteralType"
+- !private ">"
+- !private "BinaryDisposable"
+- !private "DisposeBase"
+- "IntegerLiteralType"
+- "Disposable"
 - !private "AtomicInt"
+- !private "StringLiteralType"
+- "Bool"
+- !private "AtomicCompareAndSwap"
 depends-member:
 - !private ["Ps9AnyObject", "AtomicCompareAndSwap"]
 - !private ["Ps9AnyObject", "_disposable1"]

@@ -7,22 +7,22 @@ provides-member:
 - ["V11CryptoSwift13CTRModeWorker", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "RandomAccessBlockModeWorker"
+- !private "AES"
 - "UInt8"
 - "Array"
-- !private "..<"
-- !private "/"
-- "UInt"
-- "AssignmentPrecedence"
-- "IntegerLiteralType"
-- "CTRModeWorker"
-- "FloatLiteralType"
-- !private "xor"
-- "RandomAccessBlockModeWorker"
 - !private "buildNonce"
 - "CipherOperationOnBlock"
+- !private "..<"
+- "FloatLiteralType"
+- !private "xor"
 - !private "+"
+- !private "/"
+- "IntegerLiteralType"
+- "UInt"
+- "AssignmentPrecedence"
 - !private "UInt64"
-- !private "AES"
+- "CTRModeWorker"
 depends-member:
 - !private ["C11CryptoSwift3AES", "blockSize"]
 - !private ["Ps9AnyObject", "blockSize"]

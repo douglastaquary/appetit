@@ -1,0 +1,10 @@
+framework module Fakery {
+  umbrella header "Fakery-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Fakery.__Swift {
+    exclude header "Fakery-Swift.h"
+}

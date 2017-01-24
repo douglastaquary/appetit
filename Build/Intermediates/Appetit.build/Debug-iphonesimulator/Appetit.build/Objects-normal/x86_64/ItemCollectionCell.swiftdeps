@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C7Appetit18ItemCollectionCell", ""]
 provides-dynamic-lookup:
-- "awakeFromNib"
 - "price"
-- "imageBackground"
-- "size"
 - "configure"
 - "name"
+- "imageBackground"
+- "size"
+- "awakeFromNib"
 depends-top-level:
-- "Item"
-- "UIImageView"
-- !private "/"
+- "NibReusable"
+- "AssignmentPrecedence"
 - !private "??"
 - "UICollectionViewCell"
-- "CGFloat"
-- "ItemCollectionCell"
-- "AssignmentPrecedence"
-- "CGSize"
-- !private "StringLiteralType"
-- "NibReusable"
 - "UILabel"
+- !private "/"
+- "CGFloat"
+- "UIImageView"
+- "Item"
+- !private "StringLiteralType"
+- "CGSize"
+- "ItemCollectionCell"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGFloat"]

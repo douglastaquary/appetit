@@ -16,23 +16,23 @@ provides-dynamic-lookup:
 - "collectionView"
 - "delegate"
 depends-top-level:
-- "Item"
-- "UICollectionViewDelegate"
-- "AssignmentPrecedence"
-- "CGSize"
-- "ItemsCollectionViewDataSource"
-- "ItemCollectionDelegate"
-- "Int"
-- "ItemCollectionDataSource"
-- "NSObject"
-- !private "ItemCollectionCell"
-- "UICollectionView"
-- "UICollectionViewDelegateFlowLayout"
-- "UICollectionViewLayout"
 - "UICollectionViewCell"
-- !private "StringLiteralType"
+- "Int"
+- "UICollectionViewDelegateFlowLayout"
+- "AssignmentPrecedence"
+- "UICollectionViewLayout"
 - "ItemsDelegate"
+- !private "ItemCollectionCell"
+- "ItemCollectionDataSource"
+- "ItemCollectionDelegate"
+- "UICollectionViewDelegate"
+- "ItemsCollectionViewDataSource"
+- "CGSize"
+- "Item"
+- !private "StringLiteralType"
+- "NSObject"
 - "IndexPath"
+- "UICollectionView"
 depends-member:
 - !private ["Ps9AnyObject", "ItemCollectionCell"]
 - ["Ps9AnyObject", "T"]
@@ -443,6 +443,7 @@ depends-member:
 - ["P7Appetit13ItemsDelegate", "deinit"]
 - !private ["P7Appetit13ItemsDelegate", "didSelectedItem"]
 - !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P10Kingfisher20KingfisherCompatible", "width"]
 - !private ["Ps10MirrorPath", "IntegerLiteralType"]
 - !private ["Ps10MirrorPath", "Stride"]
 - !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
@@ -900,6 +901,7 @@ depends-nominal:
 - "P7Appetit29ItemsCollectionViewDataSource"
 - "P7Appetit13ItemsDelegate"
 - !private "Ps16IteratorProtocol"
+- !private "P10Kingfisher20KingfisherCompatible"
 - !private "Ps10MirrorPath"
 - !private "Ps17MutableCollection"
 - !private "Ps16MutableIndexable"
@@ -997,4 +999,9 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "84d4ca1a19520e351f49f3f6019ed2a8"

@@ -15,14 +15,14 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "String"
-- "Error"
-- "Result"
-- "RequestType"
-- "TargetType"
 - "URLCredential"
-- "Response"
+- "TargetType"
 - "PluginType"
+- "RequestType"
+- "Response"
+- "Result"
 - "URLRequest"
+- "Error"
 - "Moya"
 depends-member:
 - ["Ps9AnyObject", "Persistence"]

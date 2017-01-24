@@ -10,21 +10,21 @@ provides-member:
 - ["C7RxSwift9Multicast", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Producer"
-- "Event"
-- "Sink"
-- "SubjectType"
-- "Disposable"
-- !private "StringLiteralType"
-- "Multicast"
-- "AssignmentPrecedence"
 - "Cancelable"
-- !private "Disposables"
 - "ObserverType"
-- "Observable"
-- !private "FloatLiteralType"
-- "MulticastSink"
+- !private "StringLiteralType"
 - !private "ConnectableObservableAdapter"
+- "Disposable"
+- "Event"
+- "Producer"
+- !private "Disposables"
+- "AssignmentPrecedence"
+- "Sink"
+- "Observable"
+- "MulticastSink"
+- "Multicast"
+- "SubjectType"
+- !private "FloatLiteralType"
 - !private "IntegerLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "ConnectableObservableAdapter"]

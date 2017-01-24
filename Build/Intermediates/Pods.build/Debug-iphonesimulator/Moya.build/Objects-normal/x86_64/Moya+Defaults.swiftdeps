@@ -8,13 +8,13 @@ provides-member:
 - ["C4Moya12MoyaProvider", "defaultAlamofireManager"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Endpoint"
-- !private "Error"
 - "Manager"
-- !private "BooleanLiteralType"
 - !private "URLSessionConfiguration"
+- !private "BooleanLiteralType"
+- "Endpoint"
 - "AssignmentPrecedence"
 - "MoyaProvider"
+- !private "Error"
 depends-member:
 - !private ["Ps9AnyObject", "Endpoint"]
 - !private ["Ps9AnyObject", "Error"]

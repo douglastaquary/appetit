@@ -13,19 +13,19 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Int"
-- "UInt8"
-- "Array"
-- !private "arrayOfBytes"
+- !private "<<"
+- "Collection"
 - "AssignmentPrecedence"
 - !private "IntegerLiteralType"
-- "UInt32"
-- "Collection"
 - !private "FloatLiteralType"
 - !private "MemoryLayout"
-- "_UInt32Type"
-- !private "<<"
-- "ArraySlice"
+- !private "arrayOfBytes"
 - !private "|"
+- "Array"
+- "UInt8"
+- "ArraySlice"
+- "UInt32"
+- "_UInt32Type"
 depends-member:
 - ["Sa", "deinit"]
 - !private ["P11CryptoSwift22BitshiftOperationsType", "MemoryLayout"]

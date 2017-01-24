@@ -15,17 +15,17 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Response"
-- "String"
-- "Image"
-- "BooleanLiteralType"
-- "ObservableType"
-- "ClosedRange"
-- "Observable"
-- !private "!"
-- "Bool"
 - "Double"
-- "Int"
+- "BooleanLiteralType"
+- !private "!"
+- "Observable"
 - "ProgressResponse"
+- "Int"
+- "ClosedRange"
+- "Image"
+- "String"
+- "ObservableType"
+- "Bool"
 depends-member:
 - !private ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "empty"]

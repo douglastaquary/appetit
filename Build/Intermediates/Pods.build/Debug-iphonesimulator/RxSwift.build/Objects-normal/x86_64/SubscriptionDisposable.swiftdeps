@@ -7,8 +7,8 @@ provides-member:
 - ["V7RxSwift22SubscriptionDisposable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "SynchronizedUnsubscribeType"
 - "AssignmentPrecedence"
+- "SynchronizedUnsubscribeType"
 - "Disposable"
 - "SubscriptionDisposable"
 depends-member:

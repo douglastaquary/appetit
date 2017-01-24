@@ -6,10 +6,10 @@ provides-member:
 - ["CSo13DispatchQueue", "isMain"]
 provides-dynamic-lookup:
 depends-top-level:
-- "DispatchQueue"
 - !private "!="
-- "Bool"
 - "DispatchSpecificKey"
+- "DispatchQueue"
+- "Bool"
 depends-member:
 - ["Ps9AnyObject", "DispatchQueue"]
 - ["Ps9AnyObject", "DispatchSpecificKey"]

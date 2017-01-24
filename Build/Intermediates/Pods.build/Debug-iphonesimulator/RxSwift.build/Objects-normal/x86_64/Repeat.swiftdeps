@@ -10,18 +10,18 @@ provides-member:
 - ["C7RxSwift17RepeatElementSink", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Sink"
-- "Producer"
-- "RepeatElementSink"
-- "AssignmentPrecedence"
-- !private "FloatLiteralType"
+- !private "StringLiteralType"
 - "Disposable"
+- "Producer"
+- "RepeatElement"
+- "Sink"
+- "RepeatElementSink"
+- !private "FloatLiteralType"
 - !private "IntegerLiteralType"
+- "ImmediateSchedulerType"
+- "AssignmentPrecedence"
 - "Cancelable"
 - "ObserverType"
-- "ImmediateSchedulerType"
-- "RepeatElement"
-- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "RepeatElementSink"]
 - ["Ps9AnyObject", "_element"]

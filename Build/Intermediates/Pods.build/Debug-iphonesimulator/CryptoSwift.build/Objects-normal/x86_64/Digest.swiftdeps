@@ -9,13 +9,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Hash"
+- !private "SHA1"
 - "SHA2"
 - !private "MD5"
 - "Digest"
-- "Array"
-- "UInt8"
 - "SHA3"
-- !private "SHA1"
+- "UInt8"
+- "Array"
 depends-member:
 - ["Ps9AnyObject", "Variant"]
 - !private ["Ps9AnyObject", "calculate"]

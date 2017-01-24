@@ -8,9 +8,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "NoPadding"
+- "Padding"
 - "UInt8"
 - "Array"
-- "Padding"
 - "Int"
 depends-member:
 - ["Sa", "deinit"]

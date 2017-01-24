@@ -11,10 +11,10 @@ provides-member:
 provides-dynamic-lookup:
 - "performLocked"
 depends-top-level:
-- "NSRecursiveLock"
 - "SpinLock"
-- "Void"
 - "Lock"
+- "Void"
+- "NSRecursiveLock"
 depends-member:
 - ["Ps9AnyObject", "calculateLocked"]
 - ["Ps9AnyObject", "calculateLockedOrFail"]

@@ -14,8 +14,8 @@ provides-member:
 - ["P7RxSwift18ReactiveCompatible", "rx"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
 - "Reactive"
+- "AssignmentPrecedence"
 - "ReactiveCompatible"
 - "NSObject"
 depends-member:

@@ -12,14 +12,14 @@ provides-member:
 - ["P11CryptoSwift9Updatable", "finish"]
 provides-dynamic-lookup:
 depends-top-level:
-- "UInt8"
 - "Array"
-- "Updatable"
-- "BooleanLiteralType"
-- "Collection"
+- "UInt8"
 - "Bool"
-- !private "!"
+- "Updatable"
 - "Void"
+- "Collection"
+- "BooleanLiteralType"
+- !private "!"
 depends-member:
 - !private ["Sa", "Element"]
 - !private ["Sa", "Iterator"]

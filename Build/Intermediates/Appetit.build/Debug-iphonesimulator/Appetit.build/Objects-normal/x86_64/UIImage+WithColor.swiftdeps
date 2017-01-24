@@ -7,11 +7,11 @@ provides-member:
 provides-dynamic-lookup:
 - "image"
 depends-top-level:
+- "UIImage"
 - !private "CGRect"
 - !private "UIGraphicsImageRenderer"
-- !private "UIRectFill"
-- "UIImage"
 - "UIColor"
+- !private "UIRectFill"
 depends-member:
 - !private ["Ps9AnyObject", "CGRect"]
 - !private ["Ps9AnyObject", "UIGraphicsImageRenderer"]
@@ -54,6 +54,9 @@ depends-member:
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "setFill"]
 - ["Si", "deinit"]
+- !private ["P10Kingfisher20KingfisherCompatible", "CGRect"]
+- !private ["P10Kingfisher20KingfisherCompatible", "UIGraphicsImageRenderer"]
+- !private ["P10Kingfisher20KingfisherCompatible", "UIRectFill"]
 - !private ["PSo8NSCoding", "CGRect"]
 - !private ["PSo8NSCoding", "UIGraphicsImageRenderer"]
 - !private ["PSo8NSCoding", "UIRectFill"]
@@ -122,6 +125,7 @@ depends-nominal:
 - "Ps9Equatable"
 - "Ps8Hashable"
 - "Si"
+- !private "P10Kingfisher20KingfisherCompatible"
 - !private "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - "CSo8NSObject"
@@ -149,6 +153,10 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
@@ -165,10 +173,6 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
@@ -177,4 +181,9 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "93c8a961df4d2b5c59408a00828c69b1"

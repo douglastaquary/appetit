@@ -11,16 +11,16 @@ provides-member:
 - ["CSo11UITableView", "dequeueReusableHeaderFooterView"]
 provides-dynamic-lookup:
 depends-top-level:
-- "NibLoadable"
-- "UITableViewCell"
-- !private "fatalError"
-- !private "+"
 - "IndexPath"
-- "CastingPrecedence"
 - "UITableView"
+- "UITableViewHeaderFooterView"
+- "CastingPrecedence"
+- "NibLoadable"
+- !private "+"
+- !private "fatalError"
 - !private "StringLiteralType"
 - "Reusable"
-- "UITableViewHeaderFooterView"
+- "UITableViewCell"
 depends-member:
 - ["Ps9AnyObject", "dequeueReusableCell"]
 - ["Ps9AnyObject", "dequeueReusableHeaderFooterView"]

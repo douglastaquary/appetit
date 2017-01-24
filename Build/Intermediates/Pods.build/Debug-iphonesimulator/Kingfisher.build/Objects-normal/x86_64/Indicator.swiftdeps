@@ -18,25 +18,25 @@ provides-member:
 - ["P10Kingfisher9Indicator", "viewCenter"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "KingfisherEmptyOptionsInfo"
+- "AssignmentPrecedence"
+- "CGPoint"
+- "UIView"
+- "ActivityIndicator"
+- "ImageIndicator"
+- !private "UIActivityIndicatorViewStyle"
+- !private "!"
+- "KingfisherOptionsInfo"
 - "IndicatorType"
 - "IndicatorView"
-- "CGPoint"
-- "ImageIndicator"
-- !private "!"
 - "Data"
-- !private "BooleanLiteralType"
 - "UIActivityIndicatorView"
+- !private "BooleanLiteralType"
 - "ImageProcessor"
-- "KingfisherOptionsInfo"
-- "Indicator"
-- !private "DefaultImageProcessor"
-- "UIView"
-- "AssignmentPrecedence"
 - !private "Array"
-- !private "KingfisherEmptyOptionsInfo"
-- "ActivityIndicator"
+- "Indicator"
 - "ImageView"
-- !private "UIActivityIndicatorViewStyle"
+- !private "DefaultImageProcessor"
 depends-member:
 - ["V10Kingfisher17ActivityIndicator", "IndicatorView"]
 - ["V10Kingfisher17ActivityIndicator", "UIActivityIndicatorView"]

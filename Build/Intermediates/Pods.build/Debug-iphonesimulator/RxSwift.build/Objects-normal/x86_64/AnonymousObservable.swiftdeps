@@ -10,22 +10,22 @@ provides-member:
 - ["C7RxSwift19AnonymousObservable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Sink"
-- "AnonymousObservableSink"
-- "Event"
-- !private "AtomicCompareAndSwap"
+- "AnyObserver"
 - !private "=="
 - "AssignmentPrecedence"
-- "Producer"
-- "Disposable"
-- "AtomicInt"
-- "AnyObserver"
-- "FloatLiteralType"
 - "AnonymousObservable"
-- "IntegerLiteralType"
 - "Cancelable"
+- "AnonymousObservableSink"
+- !private "AtomicCompareAndSwap"
+- "FloatLiteralType"
+- "Disposable"
 - "ObserverType"
+- "Producer"
+- "IntegerLiteralType"
+- "Event"
+- "Sink"
 - !private "StringLiteralType"
+- "AtomicInt"
 depends-member:
 - !private ["C7RxSwift19AnonymousObservable", "AnonymousObservableSink"]
 - ["C7RxSwift19AnonymousObservable", "AnyObserver"]

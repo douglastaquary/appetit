@@ -1,0 +1,6 @@
+framework module Pods_AppetitTests {
+  umbrella header "Pods-AppetitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

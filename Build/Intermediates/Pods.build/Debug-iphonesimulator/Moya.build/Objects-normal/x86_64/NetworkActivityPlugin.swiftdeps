@@ -11,17 +11,17 @@ provides-member:
 - ["C4Moya21NetworkActivityPlugin", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "NetworkActivityPlugin"
 - "RequestType"
 - "Moya"
-- "NetworkActivityPlugin"
-- "Error"
 - "NetworkActivityChangeType"
-- "Result"
+- "Error"
 - "Response"
 - "=="
-- "TargetType"
 - "AssignmentPrecedence"
 - "PluginType"
+- "TargetType"
+- "Result"
 depends-member:
 - ["Ps9AnyObject", "didReceive"]
 - !private ["Ps9AnyObject", "networkActivityClosure"]

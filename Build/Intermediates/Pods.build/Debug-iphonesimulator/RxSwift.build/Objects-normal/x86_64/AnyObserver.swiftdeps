@@ -10,11 +10,11 @@ provides-member:
 - ["P7RxSwift12ObserverType", "mapObserver"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Event"
-- "AssignmentPrecedence"
 - "ObserverType"
+- "AssignmentPrecedence"
 - "AnyObserver"
 - "Void"
+- "Event"
 depends-member:
 - ["V7RxSwift11AnyObserver", "AnyObserver"]
 - ["V7RxSwift11AnyObserver", "E"]

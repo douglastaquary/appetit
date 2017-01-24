@@ -7,17 +7,17 @@ provides-member:
 - ["O7Appetit10AppetitAPI", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Moya"
-- "Data"
-- "Task"
-- "Bool"
-- !private "StringLiteralType"
 - "TargetType"
+- "Moya"
+- "Task"
+- "Data"
 - "String"
-- "URL"
-- !private "Dictionary"
-- "AppetitAPI"
 - !private "BooleanLiteralType"
+- "URL"
+- !private "StringLiteralType"
+- !private "Dictionary"
+- "Bool"
+- "AppetitAPI"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["O7Appetit10AppetitAPI", "Bool"]

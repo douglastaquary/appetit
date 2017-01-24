@@ -6,38 +6,38 @@ provides-nominal:
 provides-member:
 - ["C7Appetit9ListOrder", ""]
 provides-dynamic-lookup:
-- "setUp"
-- "saveButton"
-- "updateView"
-- "titleLabel"
-- "topConstraint"
-- "saveTap"
-- "cancelTap"
 - "cancelButton"
+- "cancelTap"
+- "setUp"
+- "topConstraint"
 - "topOffset"
+- "titleLabel"
+- "saveButton"
+- "saveTap"
+- "updateView"
 depends-top-level:
-- "UIButton"
-- !private "UIStackView"
-- !private "*"
-- "UILabel"
-- "StyleProvider"
 - "CGRect"
-- "NSLayoutConstraint"
-- "UILayoutPriorityRequired"
 - "AssignmentPrecedence"
+- "StyleProvider"
+- !private "-"
+- "Style"
 - "CGFloat"
 - "TintButton"
 - !private "BooleanLiteralType"
+- !private "UIStackView"
+- "NSCoder"
+- "UILayoutPriorityRequired"
+- "NSLayoutConstraint"
+- !private "fatalError"
+- !private "??"
 - "ListOrderViewModel"
 - "ListOrderViewModelProtocol"
-- "Style"
-- !private "fatalError"
-- "NSCoder"
+- !private "StringLiteralType"
+- !private "*"
+- "UIButton"
+- "UILabel"
 - "ListOrder"
 - "UIView"
-- !private "StringLiteralType"
-- !private "??"
-- !private "-"
 depends-member:
 - !private ["Ps9AnyObject", "ListOrder"]
 - ["Ps9AnyObject", "ListOrderViewModel"]
@@ -356,6 +356,18 @@ depends-member:
 - ["Ps8Hashable", "vertical"]
 - ["Ps8Hashable", "viewModel"]
 - ["Ps8Hashable", ""]
+- !private ["P10Kingfisher20KingfisherCompatible", "addTarget"]
+- !private ["P10Kingfisher20KingfisherCompatible", "bottomAnchor"]
+- !private ["P10Kingfisher20KingfisherCompatible", "centerYAnchor"]
+- ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["P10Kingfisher20KingfisherCompatible", "leadingAnchor"]
+- !private ["P10Kingfisher20KingfisherCompatible", "leftAnchor"]
+- !private ["P10Kingfisher20KingfisherCompatible", "rightAnchor"]
+- !private ["P10Kingfisher20KingfisherCompatible", "setAttributedTitle"]
+- ["P10Kingfisher20KingfisherCompatible", "setContentHuggingPriority"]
+- !private ["P10Kingfisher20KingfisherCompatible", "title"]
+- !private ["P10Kingfisher20KingfisherCompatible", "topAnchor"]
+- !private ["P10Kingfisher20KingfisherCompatible", "translatesAutoresizingMaskIntoConstraints"]
 - ["C7Appetit9ListOrder", "CGFloat"]
 - ["C7Appetit9ListOrder", "CGRect"]
 - !private ["C7Appetit9ListOrder", "ListOrder"]
@@ -1249,6 +1261,7 @@ depends-nominal:
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Sf"
 - "Ps8Hashable"
+- "P10Kingfisher20KingfisherCompatible"
 - "C7Appetit9ListOrder"
 - "V7Appetit18ListOrderViewModel"
 - "P7Appetit26ListOrderViewModelProtocol"
@@ -1353,4 +1366,9 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "9770615bdf8f6ba96f1dc463693ac3f5"

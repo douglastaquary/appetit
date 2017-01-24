@@ -11,21 +11,21 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Cancelable"
+- !private "!"
 - "AssignmentPrecedence"
+- "ImmediateSchedulerType"
+- !private "Void"
 - "ObserverType"
 - !private "IntegerLiteralType"
-- "ImmediateSchedulerType"
-- "Generate"
+- "Bool"
+- "GenerateSink"
 - !private "FloatLiteralType"
+- "Producer"
 - !private "BooleanLiteralType"
 - "Sink"
-- "GenerateSink"
-- "Bool"
-- !private "Void"
-- !private "!"
-- "Producer"
-- !private "StringLiteralType"
 - "Disposable"
+- "Generate"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "GenerateSink"]
 - ["Ps9AnyObject", "_condition"]

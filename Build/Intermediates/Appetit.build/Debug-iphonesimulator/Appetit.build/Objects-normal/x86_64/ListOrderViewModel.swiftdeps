@@ -12,16 +12,16 @@ provides-member:
 - ["V7Appetit18ListOrderViewModel", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "Item"
-- "NSAttributedString"
 - "Void"
-- !private "print"
-- "String"
-- !private "Style"
 - "AssignmentPrecedence"
+- "Item"
+- !private "Style"
 - "ListOrderViewModelProtocol"
 - "ListOrderViewModel"
+- "String"
+- !private "print"
+- !private "StringLiteralType"
+- "NSAttributedString"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["P12ObjectMapper12BaseMappable", "id"]
@@ -51,6 +51,7 @@ depends-member:
 - !private ["V7Appetit4Item", "name"]
 - !private ["V7Appetit4Item", "price"]
 - !private ["V7Appetit4Item", "thumImage"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
 - ["V7Appetit18ListOrderViewModel", "Item"]
 - ["V7Appetit18ListOrderViewModel", "NSAttributedString"]
 - ["V7Appetit18ListOrderViewModel", "String"]
@@ -150,6 +151,7 @@ depends-nominal:
 - !private "Ps8Hashable"
 - "Si"
 - "V7Appetit4Item"
+- !private "P10Kingfisher20KingfisherCompatible"
 - "V7Appetit18ListOrderViewModel"
 - "P7Appetit26ListOrderViewModelProtocol"
 - "P7Appetit32ListOrdersViewControllerDelegate"
@@ -221,4 +223,9 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "a0714d198ce8a916128ed2ea6daa6371"

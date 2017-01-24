@@ -9,9 +9,9 @@ provides-member:
 - ["P7RxSwift13LockOwnerType", "unlock"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Lock"
 - "NSRecursiveLock"
 - "LockOwnerType"
+- "Lock"
 depends-member:
 - !private ["Ps9AnyObject", "lock"]
 - !private ["Ps9AnyObject", "unlock"]

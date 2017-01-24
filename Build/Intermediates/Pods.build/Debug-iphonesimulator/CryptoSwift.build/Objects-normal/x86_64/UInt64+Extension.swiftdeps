@@ -8,19 +8,19 @@ provides-member:
 - ["Vs6UInt64", "bytes"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "IntegerLiteralType"
+- "Int"
+- !private "FloatLiteralType"
+- !private "arrayOfBytes"
+- "ArraySlice"
+- "UInt64"
+- "AssignmentPrecedence"
+- !private "<<"
+- !private "|"
 - "UInt8"
 - "Array"
-- !private "arrayOfBytes"
-- "UInt64"
-- !private "|"
-- !private "<<"
-- !private "FloatLiteralType"
-- "Int"
-- !private "IntegerLiteralType"
 - !private "MemoryLayout"
 - "Collection"
-- "AssignmentPrecedence"
-- "ArraySlice"
 depends-member:
 - ["Sa", "deinit"]
 - !private ["P11CryptoSwift22BitshiftOperationsType", "MemoryLayout"]

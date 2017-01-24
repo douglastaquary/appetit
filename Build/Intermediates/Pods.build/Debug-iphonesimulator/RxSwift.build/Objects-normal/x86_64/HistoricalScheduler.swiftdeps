@@ -7,12 +7,12 @@ provides-member:
 - ["C7RxSwift19HistoricalScheduler", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "HistoricalSchedulerTimeConverter"
-- "VirtualTimeScheduler"
-- !private "Date"
-- !private "StringLiteralType"
 - "HistoricalScheduler"
 - "RxTime"
+- !private "Date"
+- !private "StringLiteralType"
+- "VirtualTimeScheduler"
+- "HistoricalSchedulerTimeConverter"
 depends-member:
 - !private ["Ps9AnyObject", "Date"]
 - !private ["Ps9AnyObject", "HistoricalSchedulerTimeConverter"]

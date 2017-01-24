@@ -27,19 +27,19 @@ provides-member:
 - ["Vs3Set", "toJSONString"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Map"
-- "Mappable"
+- "Bool"
+- "StaticMappable"
+- "Array"
+- "MapContext"
 - !private "Mapper"
+- "BooleanLiteralType"
 - "AssignmentPrecedence"
+- "Map"
 - "CastingPrecedence"
 - "BaseMappable"
-- "Bool"
-- "Array"
 - "Set"
-- "MapContext"
+- "Mappable"
 - "String"
-- "StaticMappable"
-- "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "map"]

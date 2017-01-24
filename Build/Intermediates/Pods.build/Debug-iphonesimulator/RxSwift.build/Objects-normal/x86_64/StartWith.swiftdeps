@@ -7,17 +7,17 @@ provides-member:
 - ["C7RxSwift9StartWith", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Observable"
-- "Disposable"
 - "AssignmentPrecedence"
+- !private "Disposables"
+- "Producer"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
-- "ObserverType"
+- "Disposable"
+- "Observable"
 - !private "StringLiteralType"
-- "StartWith"
-- "Producer"
-- !private "Disposables"
 - "Cancelable"
+- "ObserverType"
+- "StartWith"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - !private ["Ps9AnyObject", "E"]

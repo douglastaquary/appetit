@@ -9,8 +9,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Disposable"
-- !private "RecursiveImmediateScheduler"
 - "ImmediateSchedulerType"
+- !private "RecursiveImmediateScheduler"
 - !private "Disposables"
 depends-member:
 - !private ["Ps9AnyObject", "dispose"]

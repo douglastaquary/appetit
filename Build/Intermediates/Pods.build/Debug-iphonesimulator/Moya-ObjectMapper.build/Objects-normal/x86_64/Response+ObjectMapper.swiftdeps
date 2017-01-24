@@ -9,13 +9,13 @@ provides-member:
 - ["C4Moya8Response", "mapArray"]
 provides-dynamic-lookup:
 depends-top-level:
+- "CastingPrecedence"
+- !private "Error"
+- !private "String"
+- "Response"
+- !private "Mapper"
 - "ImmutableMappable"
 - "BaseMappable"
-- !private "Error"
-- !private "Mapper"
-- !private "String"
-- "CastingPrecedence"
-- "Response"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Ps9AnyObject", "Mapper"]

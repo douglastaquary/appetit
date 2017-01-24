@@ -8,19 +8,19 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- !private "fatalError"
 - !private "=="
-- !private "-="
-- "abstractMethod"
-- !private "RxError"
 - "Int"
 - "decrementChecked"
-- "incrementChecked"
 - "String"
 - "rxFatalError"
+- !private "RxError"
+- "abstractMethod"
 - !private "StringLiteralType"
-- "Swift"
+- "incrementChecked"
+- !private "-="
 - !private "+="
+- "Swift"
+- !private "fatalError"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps17BitwiseOperations", "max"]

@@ -10,15 +10,15 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "Bundle"
-- !private "String"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
-- "UIView"
 - "UINib"
+- !private "String"
+- "UIView"
 - !private "NSLayoutConstraint"
 - !private "BooleanLiteralType"
-- "NibOwnerLoadable"
 - !private "NSLayoutAttribute"
+- "NibOwnerLoadable"
 depends-member:
 - !private ["Ps9AnyObject", "NSLayoutConstraint"]
 - !private ["Ps9AnyObject", "Self"]

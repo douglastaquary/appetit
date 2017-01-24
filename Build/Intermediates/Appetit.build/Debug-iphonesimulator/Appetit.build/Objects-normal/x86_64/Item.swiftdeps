@@ -7,16 +7,16 @@ provides-member:
 - ["V7Appetit4Item", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "BooleanLiteralType"
 - "Item"
+- !private "<-"
 - "ThumbImage"
+- "Mappable"
+- "StringLiteralType"
 - "Bool"
 - "Int"
-- "BooleanLiteralType"
-- "String"
 - "Map"
-- "StringLiteralType"
-- "Mappable"
-- !private "<-"
+- "String"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "subscript"]
@@ -55,6 +55,7 @@ depends-member:
 - ["V7Appetit4Item", "name"]
 - ["V7Appetit4Item", "price"]
 - ["V7Appetit4Item", "thumImage"]
+- ["P10Kingfisher20KingfisherCompatible", "init"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["C12ObjectMapper3Map", "deinit"]
 - !private ["C12ObjectMapper3Map", "subscript"]
@@ -107,6 +108,7 @@ depends-nominal:
 - "Ps8Hashable"
 - "Si"
 - "V7Appetit4Item"
+- "P10Kingfisher20KingfisherCompatible"
 - "Ps25LosslessStringConvertible"
 - "C12ObjectMapper3Map"
 - "P12ObjectMapper8Mappable"
@@ -172,4 +174,9 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "9550acb273f790d1b407736aef75e1c0"

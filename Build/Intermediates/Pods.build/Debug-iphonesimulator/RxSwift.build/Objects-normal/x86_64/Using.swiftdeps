@@ -10,20 +10,20 @@ provides-member:
 - ["C7RxSwift5Using", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Cancelable"
-- "AssignmentPrecedence"
-- "ObserverType"
-- "Producer"
-- !private "FloatLiteralType"
 - !private "Disposables"
-- !private "IntegerLiteralType"
-- "Using"
-- "Event"
-- "Disposable"
-- "Sink"
 - "Observable"
+- "AssignmentPrecedence"
 - "UsingSink"
+- !private "FloatLiteralType"
+- "Event"
+- "Using"
+- !private "IntegerLiteralType"
+- "Sink"
 - !private "StringLiteralType"
+- "ObserverType"
+- "Cancelable"
+- "Producer"
+- "Disposable"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - ["Ps9AnyObject", "E"]

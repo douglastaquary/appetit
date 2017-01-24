@@ -10,25 +10,25 @@ provides-member:
 - ["C7RxSwift8RefCount", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Cancelable"
 - "CastingPrecedence"
 - "AssignmentPrecedence"
 - !private "=="
-- !private "rxFatalError"
-- !private "+"
+- "Producer"
 - "Disposable"
-- "RefCountSink"
-- "ConnectableObservableType"
+- !private "+"
 - "Event"
 - "Sink"
-- !private ">"
-- !private "Disposables"
-- "StringLiteralType"
 - "NSRecursiveLock"
+- !private "Disposables"
+- "ConnectableObservableType"
 - "ObserverType"
-- "Producer"
+- "RefCountSink"
+- !private ">"
 - !private "-"
+- !private "rxFatalError"
+- "StringLiteralType"
 - "RefCount"
+- "Cancelable"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - ["Ps9AnyObject", "E"]

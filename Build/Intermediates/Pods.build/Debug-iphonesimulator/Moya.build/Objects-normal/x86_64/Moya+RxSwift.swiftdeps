@@ -8,20 +8,20 @@ provides-member:
 - ["C4Moya14RxMoyaProvider", "requestWithProgress"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Disposables"
+- "Observable"
 - "MoyaProvider"
-- !private "Void"
-- "BooleanLiteralType"
+- !private "Disposables"
+- "ProgressResponse"
+- "PluginType"
 - "RxMoyaProvider"
 - "Manager"
-- "Observable"
-- "ProgressResponse"
-- "Response"
-- !private "??"
-- "PluginType"
-- !private "AnyObserver"
-- "Bool"
 - "TargetType"
+- "Bool"
+- "Response"
+- "BooleanLiteralType"
+- !private "AnyObserver"
+- !private "Void"
+- !private "??"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - !private ["Ps9AnyObject", "E"]

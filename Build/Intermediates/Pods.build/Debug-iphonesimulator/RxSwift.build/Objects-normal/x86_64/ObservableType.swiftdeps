@@ -9,10 +9,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Observable"
-- "ObservableType"
 - "ObserverType"
-- "Disposable"
+- "ObservableType"
 - "ObservableConvertibleType"
+- "Disposable"
 depends-member:
 - !private ["Ps9AnyObject", "create"]
 - !private ["V7RxSwift11AnyObserver", "E"]

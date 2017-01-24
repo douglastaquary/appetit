@@ -11,13 +11,13 @@ provides-member:
 - ["O7RxSwift5Event", "map"]
 provides-dynamic-lookup:
 depends-top-level:
-- "CustomDebugStringConvertible"
+- "Bool"
 - "String"
-- !private "BooleanLiteralType"
 - !private "UnicodeScalarType"
+- !private "BooleanLiteralType"
 - "Event"
 - !private "StringLiteralType"
-- "Bool"
+- "CustomDebugStringConvertible"
 - "Swift"
 depends-member:
 - !private ["Ps9AnyObject", "init"]

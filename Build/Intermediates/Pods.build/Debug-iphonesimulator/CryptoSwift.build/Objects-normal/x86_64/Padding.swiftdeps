@@ -8,9 +8,9 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Int"
+- "Padding"
 - "Array"
 - "UInt8"
-- "Padding"
 depends-member:
 - ["P11CryptoSwift7Padding", "Array"]
 - ["P11CryptoSwift7Padding", "Int"]

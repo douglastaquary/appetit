@@ -12,26 +12,26 @@ provides-member:
 - ["C4Moya8Endpoint", "urlRequest"]
 provides-dynamic-lookup:
 depends-top-level:
+- "Method"
 - "Int"
 - "Moya"
-- "Method"
-- !private "Foundation"
 - !private "BooleanLiteralType"
-- !private "??"
-- "ParameterEncoding"
-- "EndpointSampleResponse"
-- "Bool"
-- !private "URLEncoding"
 - "URLRequest"
-- "Equatable"
-- "HTTPURLResponse"
+- "ParameterEncoding"
+- !private "??"
+- "EndpointSampleResponse"
 - "=="
-- "AssignmentPrecedence"
+- !private "URLEncoding"
 - "Endpoint"
-- "Hashable"
-- "String"
+- "AssignmentPrecedence"
+- "Equatable"
 - "NSError"
+- "HTTPURLResponse"
 - "Data"
+- "Hashable"
+- !private "Foundation"
+- "Bool"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "Endpoint"]
 - !private ["Ps9AnyObject", "Foundation"]

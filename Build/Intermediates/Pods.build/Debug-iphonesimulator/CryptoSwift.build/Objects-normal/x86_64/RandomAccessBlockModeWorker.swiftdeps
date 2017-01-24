@@ -7,9 +7,9 @@ provides-member:
 - ["P11CryptoSwift27RandomAccessBlockModeWorker", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "BlockModeWorker"
 - "RandomAccessBlockModeWorker"
 - "UInt"
-- "BlockModeWorker"
 depends-member:
 - ["P11CryptoSwift15BlockModeWorker", "UInt"]
 - ["P11CryptoSwift15BlockModeWorker", "counter"]
