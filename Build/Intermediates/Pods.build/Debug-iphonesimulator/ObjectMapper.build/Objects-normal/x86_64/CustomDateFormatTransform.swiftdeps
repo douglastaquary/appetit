@@ -7,13 +7,13 @@ provides-member:
 - ["C12ObjectMapper25CustomDateFormatTransform", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "DateFormatterTransform"
 - !private "StringLiteralType"
-- !private "DateFormatter"
-- "CustomDateFormatTransform"
-- "AssignmentPrecedence"
 - !private "Locale"
+- "CustomDateFormatTransform"
+- !private "DateFormatter"
+- "DateFormatterTransform"
+- "AssignmentPrecedence"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "DateFormatter"]
 - !private ["Ps9AnyObject", "Locale"]

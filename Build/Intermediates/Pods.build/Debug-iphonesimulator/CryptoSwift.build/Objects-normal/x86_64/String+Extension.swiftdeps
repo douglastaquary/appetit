@@ -18,14 +18,14 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Cipher"
 - !private "CastingPrecedence"
-- "Authenticator"
-- "SHA3"
-- "UInt16"
 - !private "UInt8"
-- "BooleanLiteralType"
-- "UInt32"
+- "SHA3"
 - "Bool"
+- "UInt32"
 - "String"
+- "Authenticator"
+- "BooleanLiteralType"
+- "UInt16"
 depends-member:
 - ["Ps9AnyObject", "Variant"]
 - !private ["Ps9AnyObject", "utf8"]

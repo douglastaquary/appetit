@@ -6,9 +6,9 @@ provides-member:
 - ["C11CryptoSwift8ChaCha20", "init"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "BooleanLiteralType"
 - "String"
 - "ChaCha20"
-- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Encoding"]
 - !private ["Ps9AnyObject", "Error"]

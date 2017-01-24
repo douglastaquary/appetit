@@ -7,17 +7,17 @@ provides-member:
 - ["C7Appetit14AppCoordinator", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "AppetitAPICalls"
-- "UINavigationController"
-- "ItemsDelegate"
 - "AssignmentPrecedence"
-- "ModalTransition"
 - "AppetitAPIManager"
-- "IndexPath"
-- !private "ItemViewController"
-- !private "BooleanLiteralType"
-- !private "ItemsViewController"
 - "AppCoordinator"
+- "ModalTransition"
+- "IndexPath"
+- !private "BooleanLiteralType"
+- "AppetitAPICalls"
+- !private "ItemsViewController"
+- "ItemsDelegate"
+- !private "ItemViewController"
+- "UINavigationController"
 depends-member:
 - ["Ps9AnyObject", "AppetitAPIManager"]
 - !private ["Ps9AnyObject", "ItemViewController"]
@@ -224,4 +224,9 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "8f98e4c85b0cb5ef573bed29a112331e"

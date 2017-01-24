@@ -6,12 +6,12 @@ provides-member:
 - ["P7RxSwift14ObservableType", "debug"]
 provides-dynamic-lookup:
 depends-top-level:
-- "ObservableType"
+- "String"
 - !private "Debug"
 - "Bool"
-- "UInt"
-- "String"
+- "ObservableType"
 - "BooleanLiteralType"
+- "UInt"
 - "StringLiteralType"
 - "Observable"
 depends-member:

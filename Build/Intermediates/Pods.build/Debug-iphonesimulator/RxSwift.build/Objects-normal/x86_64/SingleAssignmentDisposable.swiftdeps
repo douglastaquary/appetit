@@ -7,24 +7,24 @@ provides-member:
 - ["C7RxSwift26SingleAssignmentDisposable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "DisposeBase"
 - "CastingPrecedence"
-- !private "OSAtomicOr32OrigBarrier"
-- "SingleAssignmentDisposable"
 - !private "=="
 - !private "~="
-- "AssignmentPrecedence"
-- !private "rxFatalError"
-- "FloatLiteralType"
-- "IntegerLiteralType"
-- "Disposable"
-- "Bool"
-- "Cancelable"
-- !private "&"
-- !private "Int32"
-- !private "StringLiteralType"
 - "UInt32"
+- "AssignmentPrecedence"
+- "FloatLiteralType"
+- !private "OSAtomicOr32OrigBarrier"
+- "Bool"
+- !private "&"
+- "IntegerLiteralType"
+- !private "Int32"
+- "SingleAssignmentDisposable"
 - !private "!="
+- !private "StringLiteralType"
+- "Cancelable"
+- !private "rxFatalError"
+- "DisposeBase"
+- "Disposable"
 depends-member:
 - !private ["Ps9AnyObject", "DisposeState"]
 - !private ["Ps9AnyObject", "DisposeStateInt32"]

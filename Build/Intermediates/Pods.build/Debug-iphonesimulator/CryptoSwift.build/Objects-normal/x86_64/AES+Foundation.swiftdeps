@@ -6,12 +6,12 @@ provides-member:
 - ["C11CryptoSwift3AES", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AES"
 - !private "BooleanLiteralType"
-- "String"
-- "BlockMode"
-- "Padding"
+- "AES"
 - !private "PKCS7"
+- "Padding"
+- "BlockMode"
+- "String"
 depends-member:
 - ["C11CryptoSwift3AES", "BlockMode"]
 - !private ["C11CryptoSwift3AES", "Error"]

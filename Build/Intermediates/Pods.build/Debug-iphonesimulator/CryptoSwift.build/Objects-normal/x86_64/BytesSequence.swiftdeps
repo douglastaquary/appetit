@@ -7,18 +7,18 @@ provides-member:
 - ["V11CryptoSwift13BytesSequence", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "&+"
-- "BytesSequence"
-- !private "AssignmentPrecedence"
 - "UInt8"
 - "Array"
-- "Sequence"
-- !private "..<"
 - !private "&-"
+- "BytesSequence"
+- !private "Swift"
+- "Sequence"
 - "ArraySlice"
 - "AnyIterator"
+- !private "&+"
+- !private "..<"
 - !private "!"
-- !private "Swift"
+- !private "AssignmentPrecedence"
 depends-member:
 - ["Vs11AnyIterator", "Element"]
 - ["Vs11AnyIterator", "deinit"]

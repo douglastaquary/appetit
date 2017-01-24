@@ -7,14 +7,14 @@ provides-member:
 - ["V11CryptoSwift14PCBCModeWorker", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Array"
-- "UInt8"
-- "AssignmentPrecedence"
 - "CipherOperationOnBlock"
-- "PCBCModeWorker"
-- "BlockModeWorker"
 - !private "??"
 - !private "xor"
+- "BlockModeWorker"
+- "PCBCModeWorker"
+- "AssignmentPrecedence"
+- "Array"
+- "UInt8"
 depends-member:
 - ["Sa", "deinit"]
 - ["P11CryptoSwift15BlockModeWorker", "cipherOperation"]

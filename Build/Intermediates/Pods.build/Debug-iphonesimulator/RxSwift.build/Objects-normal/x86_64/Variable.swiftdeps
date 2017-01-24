@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
-- "BehaviorSubject"
 - "SpinLock"
 - "Observable"
 - "Variable"
+- "BehaviorSubject"
 depends-member:
 - !private ["Ps9AnyObject", "BehaviorSubject"]
 - ["Ps9AnyObject", "SpinLock"]

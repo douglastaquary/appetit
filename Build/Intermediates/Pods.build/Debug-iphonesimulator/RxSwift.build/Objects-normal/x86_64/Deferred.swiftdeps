@@ -10,20 +10,20 @@ provides-member:
 - ["C7RxSwift8Deferred", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Deferred"
-- "Sink"
-- "AssignmentPrecedence"
 - !private "Disposables"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
-- "Producer"
-- "Cancelable"
-- "DeferredSink"
-- "ObserverType"
-- "Disposable"
-- !private "StringLiteralType"
-- "ObservableType"
 - "Event"
+- "AssignmentPrecedence"
+- "Sink"
+- "DeferredSink"
+- !private "FloatLiteralType"
+- "ObservableType"
+- !private "IntegerLiteralType"
+- "ObserverType"
+- "Cancelable"
+- !private "StringLiteralType"
+- "Deferred"
+- "Disposable"
+- "Producer"
 depends-member:
 - !private ["Ps9AnyObject", "DeferredSink"]
 - !private ["Ps9AnyObject", "Disposables"]

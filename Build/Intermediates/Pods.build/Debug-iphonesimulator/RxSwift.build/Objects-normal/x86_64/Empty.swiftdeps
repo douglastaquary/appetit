@@ -7,10 +7,10 @@ provides-member:
 - ["C7RxSwift5Empty", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Empty"
-- "Disposable"
 - "Producer"
 - !private "Disposables"
+- "Disposable"
+- "Empty"
 - "ObserverType"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]

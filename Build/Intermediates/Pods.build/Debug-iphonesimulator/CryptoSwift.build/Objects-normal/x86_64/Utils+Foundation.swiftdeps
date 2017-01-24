@@ -6,12 +6,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "print"
+- "String"
 - !private "UnicodeScalarType"
+- !private "Date"
+- "perf"
 - !private "StringLiteralType"
 - "Void"
-- !private "Date"
-- "String"
-- "perf"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Sb", "deinit"]

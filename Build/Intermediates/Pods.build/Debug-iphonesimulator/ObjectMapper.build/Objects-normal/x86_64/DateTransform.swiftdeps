@@ -7,14 +7,14 @@ provides-member:
 - ["C12ObjectMapper13DateTransform", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "TransformType"
 - !private "String"
-- "CastingPrecedence"
-- "Double"
+- "TransformType"
 - "Date"
 - "DateTransform"
-- !private "TimeInterval"
+- "CastingPrecedence"
 - !private "atof"
+- !private "TimeInterval"
+- "Double"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "Date"]

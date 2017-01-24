@@ -10,16 +10,16 @@ depends-top-level:
 - "Disposable"
 - !private "=="
 - "AssignmentPrecedence"
-- "IntegerLiteralType"
+- "Cancelable"
 - "FloatLiteralType"
+- "AtomicInt"
+- "IntegerLiteralType"
+- "Bool"
+- !private "AtomicCompareAndSwap"
 - "ImmediateSchedulerType"
 - "ScheduledDisposable"
-- !private "AtomicCompareAndSwap"
-- !private "disposeScheduledDisposable"
-- "AtomicInt"
 - "Disposables"
-- "Cancelable"
-- "Bool"
+- !private "disposeScheduledDisposable"
 depends-member:
 - !private ["Ps9AnyObject", "AtomicCompareAndSwap"]
 - !private ["Ps9AnyObject", "_disposable"]

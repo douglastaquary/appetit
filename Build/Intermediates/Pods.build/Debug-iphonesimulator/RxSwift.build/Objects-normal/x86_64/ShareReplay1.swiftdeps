@@ -8,22 +8,22 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "CastingPrecedence"
+- !private "Disposables"
+- "AnyObserver"
 - "AssignmentPrecedence"
 - !private "=="
-- "Event"
-- !private "Disposables"
-- "ShareReplay1"
-- "Observable"
+- "ObserverType"
 - "NSRecursiveLock"
 - "SingleAssignmentDisposable"
 - !private "SubscriptionDisposable"
+- "Bag"
+- "Event"
 - "SynchronizedUnsubscribeType"
 - "BooleanLiteralType"
-- "Bag"
-- "Disposable"
 - !private "StringLiteralType"
-- "AnyObserver"
-- "ObserverType"
+- "ShareReplay1"
+- "Disposable"
+- "Observable"
 depends-member:
 - !private ["Ps9AnyObject", "AnyObserver"]
 - ["Ps9AnyObject", "Bag"]

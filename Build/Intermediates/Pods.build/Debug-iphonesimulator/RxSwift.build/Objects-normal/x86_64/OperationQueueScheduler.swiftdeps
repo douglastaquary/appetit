@@ -7,13 +7,13 @@ provides-member:
 - ["C7RxSwift23OperationQueueScheduler", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "OperationQueue"
+- !private "BlockOperation"
+- "Disposable"
 - "OperationQueueScheduler"
 - !private "SingleAssignmentDisposable"
-- "AssignmentPrecedence"
-- "OperationQueue"
-- "Disposable"
-- !private "BlockOperation"
 - "ImmediateSchedulerType"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "BlockOperation"]
 - !private ["Ps9AnyObject", "SingleAssignmentDisposable"]

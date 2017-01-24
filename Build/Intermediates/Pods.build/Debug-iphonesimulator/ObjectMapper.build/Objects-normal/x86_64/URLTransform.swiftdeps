@@ -7,16 +7,16 @@ provides-member:
 - ["C12ObjectMapper12URLTransform", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "TransformType"
-- !private "!"
-- "String"
 - "URLTransform"
+- "String"
 - "BooleanLiteralType"
 - "URL"
-- "Bool"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
 - !private "CharacterSet"
+- "Bool"
+- !private "!"
+- "TransformType"
 depends-member:
 - !private ["Ps9AnyObject", "CharacterSet"]
 - ["Ps9AnyObject", "JSON"]

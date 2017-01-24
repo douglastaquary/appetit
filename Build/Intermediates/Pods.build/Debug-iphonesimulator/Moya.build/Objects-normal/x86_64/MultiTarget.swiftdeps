@@ -7,16 +7,16 @@ provides-member:
 - ["O4Moya11MultiTarget", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "URL"
 - "TargetType"
 - "Moya"
+- "String"
 - "AssignmentPrecedence"
+- "Method"
 - "Task"
+- "Data"
 - "Bool"
 - "MultiTarget"
-- "Method"
-- "Data"
 depends-member:
 - ["Sb", "deinit"]
 - ["V10Foundation4Data", "deinit"]

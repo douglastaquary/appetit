@@ -7,13 +7,13 @@ provides-member:
 - ["P7RxSwift14ObservableType", "subscribeOn"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "SerialDispatchQueueScheduler"
-- !private "SubscribeOn"
-- "CastingPrecedence"
-- !private "ObserveOn"
-- !private "ObserveOnSerialDispatchQueue"
 - "Observable"
+- "CastingPrecedence"
+- !private "ObserveOnSerialDispatchQueue"
+- !private "SerialDispatchQueueScheduler"
 - "ObservableType"
+- !private "ObserveOn"
+- !private "SubscribeOn"
 - "ImmediateSchedulerType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]

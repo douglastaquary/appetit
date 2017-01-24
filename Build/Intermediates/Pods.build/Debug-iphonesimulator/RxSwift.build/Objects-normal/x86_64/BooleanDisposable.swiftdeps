@@ -7,12 +7,12 @@ provides-member:
 - ["C7RxSwift17BooleanDisposable", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Cancelable"
-- "AssignmentPrecedence"
-- "Bool"
 - "BooleanDisposable"
-- "BooleanLiteralType"
+- "AssignmentPrecedence"
 - "Disposable"
+- "BooleanLiteralType"
+- "Bool"
+- "Cancelable"
 depends-member:
 - ["Ps9AnyObject", "BooleanDisposable"]
 - !private ["Ps9AnyObject", "_isDisposed"]

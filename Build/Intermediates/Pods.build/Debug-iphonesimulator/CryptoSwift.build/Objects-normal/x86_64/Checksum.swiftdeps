@@ -9,24 +9,24 @@ provides-member:
 - ["C11CryptoSwift8Checksum", "crc16"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Array"
+- !private "reversed"
+- !private ">>"
 - "UInt16"
-- "UInt8"
+- "Checksum"
 - "Bool"
-- !private "!="
+- !private "BytesSequence"
+- "Array"
+- "UInt8"
+- !private "^"
 - "BooleanLiteralType"
 - "UInt32"
-- "Checksum"
+- "FloatLiteralType"
 - "IntegerLiteralType"
 - !private "Int"
 - "TernaryPrecedence"
-- !private "^"
-- "FloatLiteralType"
-- !private "&"
-- !private ">>"
-- !private "reversed"
-- !private "BytesSequence"
 - "AssignmentPrecedence"
+- !private "!="
+- !private "&"
 depends-member:
 - !private ["Vs11AnyIterator", "Element"]
 - !private ["Ps9AnyObject", "BytesSequence"]

@@ -9,11 +9,11 @@ provides-member:
 - ["P7RxSwift14ObservableType", "mapArray"]
 provides-dynamic-lookup:
 depends-top-level:
+- "ObservableType"
+- "Response"
+- "ImmutableMappable"
 - "Observable"
 - "BaseMappable"
-- "ObservableType"
-- "ImmutableMappable"
-- "Response"
 depends-member:
 - !private ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "just"]

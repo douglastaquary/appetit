@@ -11,17 +11,17 @@ provides-member:
 - ["CSo16UICollectionView", "dequeueReusableSupplementaryView"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Reusable"
 - "UICollectionViewCell"
 - "CastingPrecedence"
-- "UICollectionReusableView"
-- "UICollectionView"
 - !private "fatalError"
-- !private "StringLiteralType"
-- "NibLoadable"
 - "String"
 - !private "+"
+- "UICollectionView"
 - "IndexPath"
+- "NibLoadable"
+- "UICollectionReusableView"
+- !private "StringLiteralType"
+- "Reusable"
 depends-member:
 - ["Ps9AnyObject", "dequeueReusableCell"]
 - ["Ps9AnyObject", "dequeueReusableSupplementaryView"]

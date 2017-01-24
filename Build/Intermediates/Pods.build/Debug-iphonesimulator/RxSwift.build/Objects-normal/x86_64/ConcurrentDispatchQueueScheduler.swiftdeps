@@ -7,18 +7,18 @@ provides-member:
 - ["C7RxSwift32ConcurrentDispatchQueueScheduler", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "DispatchTimeInterval"
-- "SchedulerType"
 - "DispatchQueue"
+- "DispatchTimeInterval"
 - "AssignmentPrecedence"
-- "Date"
-- "Foundation"
 - "Disposable"
-- "ConcurrentDispatchQueueScheduler"
-- !private "StringLiteralType"
-- "DispatchQueueConfiguration"
+- "Foundation"
+- "Date"
 - "DispatchQoS"
 - !private "Array"
+- "ConcurrentDispatchQueueScheduler"
+- "DispatchQueueConfiguration"
+- "SchedulerType"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Attributes"]
 - !private ["Ps9AnyObject", "Date"]

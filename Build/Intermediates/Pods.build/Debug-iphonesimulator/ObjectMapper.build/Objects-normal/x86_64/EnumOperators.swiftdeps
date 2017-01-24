@@ -19,10 +19,10 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "<-"
+- "Map"
 - "RawRepresentable"
 - !private "EnumTransform"
-- "Map"
-- "<-"
 - ">>>"
 - "String"
 depends-member:

@@ -10,20 +10,20 @@ provides-member:
 - ["C7RxSwift7ToArray", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ObserverType"
-- "AssignmentPrecedence"
-- "Cancelable"
-- !private "FloatLiteralType"
-- "ToArray"
-- !private "IntegerLiteralType"
-- "Producer"
-- "Observable"
-- "Event"
-- "Sink"
 - "ToArraySink"
-- !private "StringLiteralType"
+- "Producer"
 - "Disposable"
+- "ObserverType"
+- !private "StringLiteralType"
+- "Cancelable"
+- "AssignmentPrecedence"
+- "ToArray"
+- !private "FloatLiteralType"
+- "Event"
+- "Observable"
 - "Array"
+- !private "IntegerLiteralType"
+- "Sink"
 depends-member:
 - ["Ps9AnyObject", "Array"]
 - ["Ps9AnyObject", "E"]

@@ -7,8 +7,8 @@ provides-member:
 - ["P11CryptoSwift13Authenticator", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UInt8"
 - "Array"
+- "UInt8"
 - "Authenticator"
 depends-member:
 - ["P11CryptoSwift13Authenticator", "Array"]

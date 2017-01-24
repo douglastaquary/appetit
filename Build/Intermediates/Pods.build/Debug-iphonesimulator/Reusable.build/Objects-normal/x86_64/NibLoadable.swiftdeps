@@ -9,14 +9,14 @@ provides-member:
 - ["P8Reusable11NibLoadable", "loadFromNib"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "Bundle"
+- !private "String"
+- "UIView"
+- "CastingPrecedence"
 - "NibLoadable"
 - !private "fatalError"
-- "UINib"
-- !private "String"
-- "CastingPrecedence"
-- !private "Bundle"
-- "UIView"
 - !private "StringLiteralType"
+- "UINib"
 depends-member:
 - !private ["Ps9AnyObject", "fatalError"]
 - !private ["Ps9AnyObject", "init"]

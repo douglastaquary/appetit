@@ -7,20 +7,20 @@ provides-member:
 - ["C7RxSwift26ShareReplay1WhileConnected", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "SingleAssignmentDisposable"
-- "Bag"
+- "ObserverType"
 - "AssignmentPrecedence"
 - !private "=="
-- "Disposable"
-- !private "SubscriptionDisposable"
-- "ShareReplay1WhileConnected"
-- "NSRecursiveLock"
+- "Bag"
 - "SynchronizedUnsubscribeType"
-- "ObserverType"
+- !private "SubscriptionDisposable"
+- "NSRecursiveLock"
+- "SingleAssignmentDisposable"
+- "Event"
+- "AnyObserver"
+- "ShareReplay1WhileConnected"
+- "Disposable"
 - !private "StringLiteralType"
 - "Observable"
-- "AnyObserver"
-- "Event"
 depends-member:
 - !private ["Ps9AnyObject", "AnyObserver"]
 - ["Ps9AnyObject", "Bag"]

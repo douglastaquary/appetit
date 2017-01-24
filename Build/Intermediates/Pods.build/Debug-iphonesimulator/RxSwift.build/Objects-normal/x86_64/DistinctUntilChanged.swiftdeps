@@ -10,21 +10,21 @@ provides-member:
 - ["C7RxSwift20DistinctUntilChanged", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "DistinctUntilChangedSink"
 - "Producer"
-- "Sink"
 - "AssignmentPrecedence"
-- !private "IntegerLiteralType"
+- "Sink"
+- "Event"
 - "Disposable"
-- "Cancelable"
 - !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "DistinctUntilChanged"
+- "Cancelable"
 - !private "BooleanLiteralType"
 - "Bool"
-- "ObserverType"
-- "Observable"
 - !private "StringLiteralType"
-- "Event"
+- "Observable"
+- "ObserverType"
+- "DistinctUntilChangedSink"
 depends-member:
 - !private ["Ps9AnyObject", "DistinctUntilChangedSink"]
 - ["Ps9AnyObject", "E"]

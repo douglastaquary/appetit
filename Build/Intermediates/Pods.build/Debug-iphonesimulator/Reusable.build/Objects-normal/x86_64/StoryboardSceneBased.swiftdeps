@@ -9,14 +9,14 @@ provides-member:
 - ["P8Reusable20StoryboardSceneBased", "instantiate"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- !private "UnicodeScalarType"
-- "StoryboardSceneBased"
 - "String"
-- "UIStoryboard"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "UnicodeScalarType"
 - !private "fatalError"
 - "CastingPrecedence"
-- "UIViewController"
+- "StoryboardSceneBased"
+- "UIStoryboard"
 depends-member:
 - !private ["Ps9AnyObject", "Self"]
 - !private ["Ps9AnyObject", "fatalError"]

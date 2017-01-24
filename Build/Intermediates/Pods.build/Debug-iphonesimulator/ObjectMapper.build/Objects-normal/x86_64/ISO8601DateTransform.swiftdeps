@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "StringLiteralType"
-- !private "Locale"
-- "AssignmentPrecedence"
+- !private "DateFormatter"
 - "DateFormatterTransform"
 - "ISO8601DateTransform"
-- !private "DateFormatter"
+- "AssignmentPrecedence"
+- !private "Locale"
 depends-member:
 - !private ["Ps9AnyObject", "DateFormatter"]
 - !private ["Ps9AnyObject", "Locale"]

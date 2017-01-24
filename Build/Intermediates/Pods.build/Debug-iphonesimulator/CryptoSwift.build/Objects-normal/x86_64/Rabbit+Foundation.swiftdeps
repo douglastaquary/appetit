@@ -7,9 +7,9 @@ provides-member:
 - ["C11CryptoSwift6Rabbit", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - !private "BooleanLiteralType"
 - "Rabbit"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "Encoding"]
 - !private ["Ps9AnyObject", "Error"]

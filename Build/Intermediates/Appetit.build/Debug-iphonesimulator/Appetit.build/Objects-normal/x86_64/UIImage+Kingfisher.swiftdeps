@@ -7,10 +7,10 @@ provides-member:
 provides-dynamic-lookup:
 - "download"
 depends-top-level:
-- "UIImageView"
 - "String"
 - !private "ImageResource"
 - !private "URL"
+- "UIImageView"
 depends-member:
 - !private ["Ps9AnyObject", "ImageResource"]
 - !private ["Ps9AnyObject", "URL"]

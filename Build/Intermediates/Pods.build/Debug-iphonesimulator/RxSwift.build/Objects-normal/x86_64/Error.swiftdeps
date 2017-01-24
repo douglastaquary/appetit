@@ -7,16 +7,16 @@ provides-member:
 - ["C7RxSwift5Error", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ObserverType"
 - "AssignmentPrecedence"
-- !private "FloatLiteralType"
 - !private "Disposables"
+- "ObserverType"
+- !private "FloatLiteralType"
 - !private "IntegerLiteralType"
-- "Disposable"
-- "Error"
-- "Producer"
 - !private "StringLiteralType"
+- "Error"
+- "Disposable"
 - "Swift"
+- "Producer"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - ["Ps9AnyObject", "_error"]

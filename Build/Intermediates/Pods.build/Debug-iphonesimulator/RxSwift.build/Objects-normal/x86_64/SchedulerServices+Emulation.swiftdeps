@@ -11,21 +11,21 @@ provides-member:
 - ["C7RxSwift25SchedulePeriodicRecursive", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "SchedulePeriodicRecursiveCommand"
+- "Disposable"
+- !private ">"
+- "RxTimeInterval"
+- "Void"
+- !private "AtomicIncrement"
+- "FloatLiteralType"
+- "SchedulerType"
+- "IntegerLiteralType"
+- !private "AtomicDecrement"
 - "AnyRecursiveScheduler"
 - "=="
 - "AssignmentPrecedence"
-- !private "AtomicDecrement"
-- "SchedulePeriodicRecursiveCommand"
-- "FloatLiteralType"
-- "RxTimeInterval"
-- "IntegerLiteralType"
-- !private ">"
-- "SchedulerType"
 - "AtomicInt"
-- "Disposable"
 - "SchedulePeriodicRecursive"
-- !private "AtomicIncrement"
-- "Void"
 depends-member:
 - !private ["Ps9AnyObject", "AtomicDecrement"]
 - !private ["Ps9AnyObject", "AtomicIncrement"]

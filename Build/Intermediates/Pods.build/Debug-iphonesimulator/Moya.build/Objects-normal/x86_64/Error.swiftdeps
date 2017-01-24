@@ -8,11 +8,11 @@ provides-member:
 - ["O4Moya5Error", "response"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Moya"
-- "Swift"
 - "Error"
 - "Response"
 - "String"
+- "Moya"
+- "Swift"
 depends-member:
 - ["O4Moya5Error", "Moya"]
 - ["O4Moya5Error", "Response"]

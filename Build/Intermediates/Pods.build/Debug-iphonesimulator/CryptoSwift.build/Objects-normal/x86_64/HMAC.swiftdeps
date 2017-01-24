@@ -13,25 +13,25 @@ provides-member:
 - ["OC11CryptoSwift4HMAC7Variant", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private ">"
-- !private "SHA1"
+- "UInt8"
+- !private "<"
 - "HMAC"
+- !private "SHA1"
 - !private "SHA2"
+- !private "ZeroPadding"
+- !private "+"
+- "Authenticator"
 - "Swift"
 - !private "Digest"
-- !private "^"
+- !private ">"
+- !private "IntegerLiteralType"
 - !private "MD5"
 - !private "FloatLiteralType"
-- !private "+"
-- "Int"
-- !private "IntegerLiteralType"
+- !private "^"
 - "=="
-- "Authenticator"
-- !private "ZeroPadding"
 - "AssignmentPrecedence"
-- !private "<"
+- "Int"
 - "Array"
-- "UInt8"
 depends-member:
 - !private ["Ps9AnyObject", "Array"]
 - !private ["Ps9AnyObject", "Digest"]

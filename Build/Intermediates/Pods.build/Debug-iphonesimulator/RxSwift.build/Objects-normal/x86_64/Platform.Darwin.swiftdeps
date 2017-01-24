@@ -14,17 +14,17 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "CastingPrecedence"
-- "AssignmentPrecedence"
-- "AnyObject"
-- "Thread"
-- "AtomicCompareAndSwap"
-- "OSAtomicDecrement32Barrier"
-- "AtomicIncrement"
-- "AtomicDecrement"
-- "OSAtomicCompareAndSwap32Barrier"
-- "Int32"
-- "String"
 - "AtomicInt"
+- "AssignmentPrecedence"
+- "OSAtomicDecrement32Barrier"
+- "AnyObject"
+- "Int32"
+- "Thread"
+- "AtomicDecrement"
+- "String"
+- "OSAtomicCompareAndSwap32Barrier"
+- "AtomicIncrement"
+- "AtomicCompareAndSwap"
 - "OSAtomicIncrement32Barrier"
 depends-member:
 - !private ["Ps9AnyObject", "Thread"]

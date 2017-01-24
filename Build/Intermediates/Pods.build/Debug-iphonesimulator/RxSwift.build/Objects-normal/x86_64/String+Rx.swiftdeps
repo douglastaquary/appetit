@@ -7,10 +7,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Character"
-- "AssignmentPrecedence"
-- !private "=="
 - !private ">"
 - "String"
+- "AssignmentPrecedence"
+- !private "=="
 depends-member:
 - !private ["Ps9AnyObject", "endIndex"]
 - !private ["Ps9AnyObject", "index"]

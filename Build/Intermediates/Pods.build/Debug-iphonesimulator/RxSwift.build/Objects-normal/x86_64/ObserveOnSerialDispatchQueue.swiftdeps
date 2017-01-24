@@ -10,21 +10,21 @@ provides-member:
 - ["C7RxSwift28ObserveOnSerialDispatchQueue", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Event"
-- "Producer"
-- "AssignmentPrecedence"
-- "Disposable"
-- "ObserveOnSerialDispatchQueueSink"
-- "ObserveOnSerialDispatchQueue"
-- "SerialDispatchQueueScheduler"
-- !private "IntegerLiteralType"
-- !private "FloatLiteralType"
-- "ObserverType"
-- "ObserverBase"
-- "Cancelable"
-- !private "Disposables"
 - "Observable"
+- "Disposable"
+- "AssignmentPrecedence"
+- "ObserverType"
+- "SerialDispatchQueueScheduler"
+- "Cancelable"
+- !private "FloatLiteralType"
+- "ObserveOnSerialDispatchQueueSink"
+- !private "Disposables"
+- !private "IntegerLiteralType"
+- "Event"
 - !private "StringLiteralType"
+- "Producer"
+- "ObserveOnSerialDispatchQueue"
+- "ObserverBase"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - !private ["Ps9AnyObject", "E"]

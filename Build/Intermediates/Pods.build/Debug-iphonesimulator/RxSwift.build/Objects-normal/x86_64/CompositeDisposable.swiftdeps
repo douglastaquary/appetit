@@ -13,21 +13,21 @@ provides-member:
 - ["V7RxSwift11Disposables", "create"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "disposeAll"
-- "Disposables"
 - "Disposable"
 - !private "AssignmentPrecedence"
 - !private "=="
 - !private "~="
-- "Bag"
 - "Bool"
-- "SpinLock"
-- "DisposeBase"
-- "CompositeDisposable"
+- !private "??"
 - "BagKey"
 - "Int"
-- !private "??"
+- "Bag"
 - "Cancelable"
+- "SpinLock"
+- !private "disposeAll"
+- "Disposables"
+- "DisposeBase"
+- "CompositeDisposable"
 depends-member:
 - ["Ps9AnyObject", "Bag"]
 - !private ["Ps9AnyObject", "DisposeKey"]

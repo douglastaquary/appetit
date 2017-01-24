@@ -7,18 +7,18 @@ provides-member:
 - ["V11CryptoSwift19RandomBytesSequence", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UInt8"
 - !private "AssignmentPrecedence"
-- !private "arc4random_uniform"
 - !private "IntegerLiteralType"
-- "Int"
+- !private ">="
 - "Sequence"
 - !private "FloatLiteralType"
-- !private ">="
+- "RandomBytesSequence"
 - !private "UInt32"
 - "AnyIterator"
-- "RandomBytesSequence"
 - !private "+"
+- "UInt8"
+- !private "arc4random_uniform"
+- "Int"
 depends-member:
 - ["Vs11AnyIterator", "Element"]
 - ["Vs11AnyIterator", "deinit"]

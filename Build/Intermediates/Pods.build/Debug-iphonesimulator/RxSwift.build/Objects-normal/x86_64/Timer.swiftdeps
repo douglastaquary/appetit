@@ -13,24 +13,24 @@ provides-member:
 - ["C7RxSwift5Timer", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "CastingPrecedence"
-- "SignedInteger"
-- "AssignmentPrecedence"
-- "Sink"
-- !private "FloatLiteralType"
-- "SchedulerType"
-- !private "IntegerLiteralType"
-- "ObserverType"
-- "TimerSink"
-- "RxTimeInterval"
-- !private "&+"
-- "Cancelable"
-- !private "StringLiteralType"
 - "TimerOneOffSink"
+- "Sink"
+- "SignedInteger"
+- !private "StringLiteralType"
+- !private "&+"
+- "SchedulerType"
+- "RxTimeInterval"
+- "CastingPrecedence"
 - !private "Disposables"
-- "Timer"
+- "AssignmentPrecedence"
+- "Cancelable"
 - "Disposable"
+- !private "FloatLiteralType"
+- "Timer"
 - "Producer"
+- !private "IntegerLiteralType"
+- "TimerSink"
+- "ObserverType"
 depends-member:
 - !private ["Ps9AnyObject", "Disposables"]
 - !private ["Ps9AnyObject", "TimerOneOffSink"]

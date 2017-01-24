@@ -9,10 +9,10 @@ provides-member:
 - ["P8Reusable8Reusable", "reuseIdentifier"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "NibLoadable"
-- "Reusable"
+- "String"
 - "NibReusable"
+- "Reusable"
 depends-member:
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps10Comparable", "init"]

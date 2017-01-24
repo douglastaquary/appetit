@@ -15,22 +15,22 @@ provides-member:
 - ["P7RxSwift14ObservableType", "shareReplayLatestWhileConnected"]
 provides-dynamic-lookup:
 depends-top-level:
+- "ConnectableObservable"
 - !private "ReplaySubject"
 - !private "=="
-- !private "ConnectableObservableAdapter"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
 - "ObservableType"
-- "ConnectableObservable"
+- "Observable"
+- !private "IntegerLiteralType"
 - !private "PublishSubject"
+- !private "FloatLiteralType"
+- !private "Multicast"
+- "Int"
 - !private "RefCount"
 - !private "ShareReplay1"
-- "Int"
 - "ConnectableObservableType"
-- !private "ShareReplay1WhileConnected"
-- !private "Multicast"
-- "Observable"
 - "SubjectType"
+- !private "ShareReplay1WhileConnected"
+- !private "ConnectableObservableAdapter"
 depends-member:
 - !private ["Ps9AnyObject", "E"]
 - !private ["Ps9AnyObject", "SubjectObserverType"]

@@ -8,14 +8,14 @@ provides-member:
 - ["P7RxSwift14ObservableType", "subscribeSafe"]
 provides-dynamic-lookup:
 depends-top-level:
-- "AssignmentPrecedence"
 - "Disposable"
+- "AssignmentPrecedence"
 - "ObserverType"
-- "ObservableType"
 - "Event"
+- "ObservableType"
 - "Void"
-- !private "AnonymousObserver"
 - !private "Disposables"
+- !private "AnonymousObserver"
 - "Swift"
 depends-member:
 - !private ["C7RxSwift17AnonymousObserver", "E"]

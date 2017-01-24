@@ -7,22 +7,22 @@ provides-member:
 - ["C7RxSwift13MainScheduler", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "SingleAssignmentDisposable"
-- "String"
-- !private "&&"
+- "MainScheduler"
 - "AssignmentPrecedence"
 - !private "=="
-- !private "AtomicIncrement"
-- "MainScheduler"
+- !private "!"
 - "DispatchQueue"
-- "AtomicInt"
-- !private "rxFatalError"
 - "Disposable"
+- "String"
+- !private "rxFatalError"
+- !private "AtomicIncrement"
+- !private "AtomicDecrement"
 - !private "??"
+- "AtomicInt"
+- !private "&&"
+- !private "SingleAssignmentDisposable"
 - !private "StringLiteralType"
 - "SerialDispatchQueueScheduler"
-- !private "AtomicDecrement"
-- !private "!"
 depends-member:
 - !private ["Ps9AnyObject", "AtomicDecrement"]
 - !private ["Ps9AnyObject", "AtomicIncrement"]

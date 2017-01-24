@@ -8,14 +8,14 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "CastingPrecedence"
-- "Bool"
 - !private "AssignmentPrecedence"
 - "Cancelable"
 - "SpinLock"
-- "DisposeBase"
+- "Bool"
 - "Disposable"
 - "BooleanLiteralType"
 - "SerialDisposable"
+- "DisposeBase"
 depends-member:
 - ["Ps9AnyObject", "SpinLock"]
 - ["Ps9AnyObject", "_current"]
