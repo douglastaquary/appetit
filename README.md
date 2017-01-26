@@ -31,7 +31,7 @@ Esse projeto dois frameworks de Testes:
 
 - [Nimble](https://github.com/Quick/Nimble) | Matcher framework
 
-No Xcode 7, a Apple incluiu uma ferramenta de Testes chamada **XCTests**. Com ele você consegue gerar códigos de testes de UI, corbertura de código e escrever os testes unitários. Pra mim, que fique bem claro que é minha opinião, prefiro usar o `Quick`, pois o `XCTest` apesar de ajudar muito,tem uns gaps que deixa esse framework nativo em desvantagem quando comparado os outros dois escolhidos. Cito dois pontos bastantes relevantes: Fácil escrita/leitura e menos boilerplate de código.
+No Xcode 5, a Apple incluiu uma ferramenta de Testes chamada **XCTests**. Com ela você consegue gerar códigospara testes de UI, gerando linhas de código automaticamente para cada ação que é executada no aplicativo no emulador, além de corbertura de código e escrever os testes unitários. Pra mim, que fique bem claro que é minha opinião, prefiro usar o `Quick`, para escrever testes unitarios e de aceitacão e usar o do xcode para testes de UI. O `XCTest` apesar de ajudar muito em alguns pontos,ainda tem uns gaps que deixa esse framework nativo em desvantagem quando comparado ao **Quick** na hora de escrever testes e colocar isso no seu dia a dia, cito dois pontos bastantes relevantes: Fácil escrita/leitura e menos boilerplate de código.
 
 ## Instalação
 
