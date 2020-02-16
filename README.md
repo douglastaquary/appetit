@@ -25,13 +25,11 @@ Esse repositório é referente ao protótipo criado para demonstrar o resultado 
 
 ## Ferramentas de Testes
 
-Esse projeto dois frameworks de Testes:
-
 - [Quick](https://github.com/Quick/Quick) |  Behavior-drive development framework para swift e objective-C que vem junto com Nimble.
 
 - [Nimble](https://github.com/Quick/Nimble) | Matcher framework
 
-No Xcode 5, a Apple incluiu uma ferramenta de Testes chamada **XCTests**. Com ele você consegue gerar códigos de testes de UI, corbertura de código e escrever os testes unitários. Pra mim, que fique bem claro que é minha opinião, prefiro usar o `Quick`, pois o `XCTest` apesar de ajudar muito,tem uns gaps que deixa esse framework nativo em desvantagem quando comparado os outros dois escolhidos. Cito dois pontos bastantes relevantes: Fácil escrita/leitura e menos boilerplate de código.
+No Xcode 5, a Apple incluiu uma ferramenta de Testes chamada **XCTests**. Com ele você consegue gerar códigos de testes de UI, corbertura de código e escrever os testes unitários. Nesse projeto experimentamos uma lib que basicamente é uma abstração do `XCTests` para deixar a forma de escrever o teste mais intuítiva: o `Quick` e o `Nimble`.
 
 ## Instalação
 
